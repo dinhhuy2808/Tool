@@ -1,0 +1,2507 @@
+<!doctype html>
+<html lang="vi" class="hsk sec4">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script type="text/javascript">
+        (function () {
+            var w = document.documentElement.clientWidth, min = 992;
+            if (w < min) {
+                var viewport = document.querySelector('meta[name=viewport]');
+                viewport.setAttribute('content', 'width=' + 992 + 'px, initial-scale=' + (w / min).toFixed(1));
+            }
+        })();
+    </script> 
+  <meta name="csrf-param" content="_csrf-frontend"> 
+  <meta name="csrf-token" content="wl9sbaPYBa84vDFLus25A3Y2jTupukvIJMjeCUgkkZ2ALzo_yaFK4Qz9UwHQqI9KOHPODcDOPIB0rOZIeHek3g=="> 
+  <title>HSK cấp 1 - Đề thi thật - Đề thi thật Bộ3</title> 
+  <link href="/assets/e354e533/skin/circle/circle.css" rel="stylesheet"> 
+  <link href="/assets/218bf03/css/bootstrap.css" rel="stylesheet"> 
+  <link href="/css/style.css?v=12" rel="stylesheet"> 
+  <link href="/css/hsk.css?v=2" rel="stylesheet"> 
+  <script src="https://www.googletagmanager.com/gtag/js?id=UA-122298952-1" async></script> 
+  <script>var cp01994831={"preload":"auto","volume":1,"supplied":"mp3","swfPath":"/assets/e354e533/jquery.jplayer.swf"};
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-122298952-1');
+gtag('config', 'AW-808467693');
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ym(53994931, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true
+});</script>
+ </head> 
+ <body> 
+  <div class="wrap"> 
+   <nav id="w20" class="navbar-inverse navbar" role="navigation">
+    <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w20-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><a class="navbar-brand" href="/vi/"><img src="/logo80.png" alt=""> HSK Online</a>
+     </div>
+     <div id="w20-collapse" class="collapse navbar-collapse">
+      <ul id="w21" class="navbar-nav navbar-left nav">
+       <li><a href="/vi/hsk/start">Khóa học</a></li> 
+       <li><a href="/vi/app/index">Tải ứng dụng</a></li> 
+       <li><a href="/vi/corporate/services">Dịch vụ</a></li> 
+       <li><a href="/vi/upgrade/index">Nâng cấp</a></li> 
+       <li><a href="/vi/about/index">Về HSK Online</a></li>
+      </ul>
+      <ul id="w22" class="navbar-nav navbar-right nav">
+       <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Tiếng Việt <b class="caret"></b></a>
+        <ul id="w23" class="dropdown-menu">
+         <li><a href="/zh/site/language?destination=%2Fzh%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">简体中文</a></li> 
+         <li><a href="/en/site/language?destination=%2Fen%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">English</a></li> 
+         <li><a href="/ja/site/language?destination=%2Fja%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">日本語</a></li> 
+         <li><a href="/ko/site/language?destination=%2Fko%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">한국어</a></li> 
+         <li><a href="/th/site/language?destination=%2Fth%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">ภาษาไทย</a></li> 
+         <li><a href="/ru/site/language?destination=%2Fru%2F1%2F4%2Ftest-start%3Flid%3D19" tabindex="-1">Русский</a></li>
+        </ul></li> 
+       <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Thông tin cá nhân <b class="caret"></b></a>
+        <ul id="w24" class="dropdown-menu">
+         <li><a href="/vi/account" tabindex="-1">HSK37605483</a></li> 
+         <li><a class="logout" href="/vi/site/logout" data-method="post" tabindex="-1">Đăng xuất</a></li>
+        </ul></li>
+      </ul>
+     </div>
+    </div>
+   </nav> 
+   <div class="nav-hsk"> 
+    <div class="container"> 
+     <ul id="w25" class="nav nav-pills">
+      <li class="switch-level dropdown-hover dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="l1">1</i> HSK cấp 1 <b class="caret"></b></a>
+       <ul id="w26" class="dropdown-menu">
+        <li><a href="/vi/2/start" tabindex="-1"><i class="l2">2</i> HSK cấp 2</a></li> 
+        <li><a href="/vi/3/start" tabindex="-1"><i class="l3">3</i> HSK cấp 3</a></li> 
+        <li><a href="/vi/4/start" tabindex="-1"><i class="l4">4</i> HSK cấp 4</a></li> 
+        <li><a href="/vi/5/start" tabindex="-1"><i class="l5">5</i> HSK cấp 5</a></li> 
+        <li><a href="/vi/6/start" tabindex="-1"><i class="l6">6</i> HSK cấp 6</a></li>
+       </ul></li> 
+      <li><a href="/vi/1/1"><img src="http://f.hskcdn.com/web/res/hsk/icons/listen.png" alt=""> Nghe</a></li> 
+      <li><a href="/vi/1/2"><img src="http://f.hskcdn.com/web/res/hsk/icons/read.png" alt=""> Đọc hiểu</a></li> 
+      <li class="active"><a href="/vi/1/4"><img src="http://f.hskcdn.com/web/res/hsk/icons/test.png" alt=""> Thi</a></li> 
+      <li><a href="/vi/1/my/practice">Bài luyện tập của tôi</a></li>
+     </ul> 
+    </div> 
+   </div> 
+   <div class="main"> 
+    <div class="container"> 
+     <div class="test-exercise-view"> 
+      <div class="sidebars"> 
+       <div id="content"> 
+        <div class="block"> 
+         <h1 class="text-center">HSK cấp 1 - Đề thi thật - Đề thi thật Bộ3</h1> 
+         <br> 
+         <div id="exercise-list" class="carousel slide exercise-test" data-ride="carousel" data-interval="false"> 
+          <div class="carousel-inner" role="listbox"> 
+           <div class="item active">
+            <div class="exercise-view exercise-dct" data-eid="18504" data-lid="19" data-sid="4" data-pid="0" data-tid="87">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Dựa vào từ nghe được phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">1</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               1
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-1.jpg" alt="">
+              </div> 
+              <div class="field-audio">
+               <div id="w0" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18504.mp3&quot;}" data-extend="cp01994831">
+                <div id="w0-jplayer" class="cp-jplayer"></div> 
+                <div id="w0-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div> 
+              <div class="text-center field-subject ans-hide">
+               <p class="pinyin"><ruby><span>三</span><rt>sān</rt><span>分钟</span><rt>fēnzhōng</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap answer" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7923 lần, tỉ lệ đúng là 85%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18505" data-lid="19" data-sid="4" data-pid="0" data-tid="87">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Dựa vào từ nghe được phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">2</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               2
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-2.jpg" alt="">
+              </div> 
+              <div class="field-audio">
+               <div id="w1" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18505.mp3&quot;}" data-extend="cp01994831">
+                <div id="w1-jplayer" class="cp-jplayer"></div> 
+                <div id="w1-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div> 
+              <div class="text-center field-subject ans-hide">
+               <p class="pinyin"><ruby><span>请</span><rt>qǐng</rt><span>坐</span><rt>zuò</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap answer" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7765 lần, tỉ lệ đúng là 93%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18506" data-lid="19" data-sid="4" data-pid="0" data-tid="87">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Dựa vào từ nghe được phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">3</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               3
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-3.jpg" alt="">
+              </div> 
+              <div class="field-audio">
+               <div id="w2" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18506.mp3&quot;}" data-extend="cp01994831">
+                <div id="w2-jplayer" class="cp-jplayer"></div> 
+                <div id="w2-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div> 
+              <div class="text-center field-subject ans-hide">
+               <p class="pinyin"><ruby><span>我的</span><rt>wǒde</rt><span>电脑</span><rt>diànnǎo</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap answer" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7755 lần, tỉ lệ đúng là 95%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18507" data-lid="19" data-sid="4" data-pid="0" data-tid="87">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Dựa vào từ nghe được phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">4</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               4
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-4.jpg" alt="">
+              </div> 
+              <div class="field-audio">
+               <div id="w3" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18507.mp3&quot;}" data-extend="cp01994831">
+                <div id="w3-jplayer" class="cp-jplayer"></div> 
+                <div id="w3-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div> 
+              <div class="text-center field-subject ans-hide">
+               <p>猫和狗</p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap answer" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7752 lần, tỉ lệ đúng là 95%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18508" data-lid="19" data-sid="4" data-pid="0" data-tid="87">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Dựa vào từ nghe được phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">5</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               5
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-5.jpg" alt="">
+              </div> 
+              <div class="field-audio">
+               <div id="w4" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18508.mp3&quot;}" data-extend="cp01994831">
+                <div id="w4-jplayer" class="cp-jplayer"></div> 
+                <div id="w4-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div> 
+              <div class="text-center field-subject ans-hide">
+               <p class="pinyin"><ruby><span>不</span><rt>bú</rt><span>爱</span><rt>ài</rt><span>吃</span><rt>chī</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap answer" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7750 lần, tỉ lệ đúng là 54%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18509" data-lid="19" data-sid="6" data-pid="0" data-tid="37">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">6</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               6
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>她</span><rt>Tā</rt><span>是</span><rt>shì</rt><span>中国</span><rt>Zhōngguó</rt><span>人，她</span><rt>rén，tā</rt><span>住</span><rt>zhù</rt><span>在</span><rt>zài</rt><span>北京。</span><rt>Běijīng.</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w5" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18509.mp3&quot;}" data-extend="cp01994831">
+                <div id="w5-jplayer" class="cp-jplayer"></div> 
+                <div id="w5-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items">
+               <div class="field-option-wrap field-image answer" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-6-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-6-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-6-3.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7689 lần, tỉ lệ đúng là 97%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18510" data-lid="19" data-sid="6" data-pid="0" data-tid="37">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">7</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               7
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>看见</span><rt>Kànjiàn</rt><span>没？在</span><rt>méi？Zài</rt><span>那儿，在</span><rt>nàr，zài</rt><span>前面。</span><rt>qiánmian.</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w6" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18510.mp3&quot;}" data-extend="cp01994831">
+                <div id="w6-jplayer" class="cp-jplayer"></div> 
+                <div id="w6-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items">
+               <div class="field-option-wrap field-image" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-7-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-7-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image answer" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-7-3.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>C</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7829 lần, tỉ lệ đúng là 85%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18511" data-lid="19" data-sid="6" data-pid="0" data-tid="37">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">8</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               8
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>不</span><rt>bú</rt><span>会</span><rt>huì</rt><span>写</span><rt>xiě</rt><span>哪个</span><rt>nǎge</rt><span>字？</span><rt>zì?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w7" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18511.mp3&quot;}" data-extend="cp01994831">
+                <div id="w7-jplayer" class="cp-jplayer"></div> 
+                <div id="w7-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items">
+               <div class="field-option-wrap field-image" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-8-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image answer" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-8-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-8-3.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7659 lần, tỉ lệ đúng là 79%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18512" data-lid="19" data-sid="6" data-pid="0" data-tid="37">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">9</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               9
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>这</span><rt>Zhè</rt><span>是</span><rt>shì</rt><span>我</span><rt>wǒ</rt><span>先生</span><rt>xiānsheng</rt><span>的</span><rt>de</rt><span>衣服。</span><rt>yīfu.</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w8" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18512.mp3&quot;}" data-extend="cp01994831">
+                <div id="w8-jplayer" class="cp-jplayer"></div> 
+                <div id="w8-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items">
+               <div class="field-option-wrap field-image answer" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-9-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-9-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-9-3.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7687 lần, tỉ lệ đúng là 72%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18513" data-lid="19" data-sid="6" data-pid="0" data-tid="37">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">10</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               10
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>对不起，她们</span><rt>Duìbuqǐ，tāmen</rt><span>都</span><rt>dōu</rt><span>在</span><rt>zài</rt><span>打</span><rt>dǎ</rt><span>电话。</span><rt>diànhuà.</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w9" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18513.mp3&quot;}" data-extend="cp01994831">
+                <div id="w9-jplayer" class="cp-jplayer"></div> 
+                <div id="w9-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items">
+               <div class="field-option-wrap field-image" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-10-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-10-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image answer" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-10-3.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>C</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7770 lần, tỉ lệ đúng là 91%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dxz" data-eid="18514" data-lid="19" data-sid="8" data-pid="0" data-tid="89">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe hội thoại chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">11-15</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               11-15
+              </div> 
+              <div class="field-items">
+               <div class="field-option-wrap field-image" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-11-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-11-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-11-3.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="3">
+                <div class="field-option">
+                 <span class="field-no">D</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-11-4.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="4">
+                <div class="field-option">
+                 <span class="field-no">E</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-11-5.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-children">
+               <div class="exercise-view exercise-child exercise-dxz-xm" data-eid="18515" data-lid="19" data-sid="8" data-pid="18514" data-tid="89">
+                <div class="field-heading">
+                 <div class="field-number">
+                  11
+                 </div> 
+                 <div class="field-inline-group">
+                  <div class="field-audio">
+                   <div id="w10" class="audio circle-audio circle-audio-md" data-loop="2" data-interval="3000" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18515.mp3&quot;}" data-extend="cp01994831">
+                    <div id="w10-jplayer" class="cp-jplayer"></div> 
+                    <div id="w10-container" class="cp-container"> 
+                     <div class="cp-buffer-holder"> 
+                      <div class="cp-buffer-1"></div> 
+                      <div class="cp-buffer-2"></div> 
+                     </div> 
+                     <div class="cp-progress-holder"> 
+                      <div class="cp-progress-1"></div> 
+                      <div class="cp-progress-2"></div> 
+                     </div> 
+                     <div class="cp-circle-control"></div> 
+                     <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                     </div> 
+                    </div>
+                   </div>
+                  </div> 
+                  <div class="field-items">
+                   <div class="field-option-wrap inline" data-no="0">
+                    <div class="field-option">
+                     A
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="1">
+                    <div class="field-option">
+                     B
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="2">
+                    <div class="field-option">
+                     C
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="3">
+                    <div class="field-option">
+                     D
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="4">
+                    <div class="field-option">
+                     E
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="field-subject ans-hide">
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>你</span><rt>Nǐ</rt><span>在</span><rt>zài</rt><span>哪儿</span><rt>nǎr</rt><span>呢？</span><rt>ne?</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>我</span><rt>Wǒ</rt><span>在</span><rt>zài</rt><span>你的</span><rt>nǐde</rt><span>后面。</span><rt>hòumian.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>C</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7979 lần, tỉ lệ đúng là 80%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dxz-xm" data-eid="18516" data-lid="19" data-sid="8" data-pid="18514" data-tid="89">
+                <div class="field-heading">
+                 <div class="field-number">
+                  12
+                 </div> 
+                 <div class="field-inline-group">
+                  <div class="field-audio">
+                   <div id="w11" class="audio circle-audio circle-audio-md" data-loop="2" data-interval="3000" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18516.mp3&quot;}" data-extend="cp01994831">
+                    <div id="w11-jplayer" class="cp-jplayer"></div> 
+                    <div id="w11-container" class="cp-container"> 
+                     <div class="cp-buffer-holder"> 
+                      <div class="cp-buffer-1"></div> 
+                      <div class="cp-buffer-2"></div> 
+                     </div> 
+                     <div class="cp-progress-holder"> 
+                      <div class="cp-progress-1"></div> 
+                      <div class="cp-progress-2"></div> 
+                     </div> 
+                     <div class="cp-circle-control"></div> 
+                     <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                     </div> 
+                    </div>
+                   </div>
+                  </div> 
+                  <div class="field-items">
+                   <div class="field-option-wrap inline" data-no="0">
+                    <div class="field-option">
+                     A
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="1">
+                    <div class="field-option">
+                     B
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="2">
+                    <div class="field-option">
+                     C
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="3">
+                    <div class="field-option">
+                     D
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="4">
+                    <div class="field-option">
+                     E
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="field-subject ans-hide">
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>你</span><rt>Nǐ</rt><span>爸爸</span><rt>bàba</rt><span>在</span><rt>zài</rt><span>看</span><rt>kàn</rt><span>电视</span><rt>diànshì</rt><span>吗？</span><rt>ma?</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>没有，他</span><rt>Méiyǒu，tā</rt><span>在</span><rt>zài</rt><span>睡觉。</span><rt>shuìjiào.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>E</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7948 lần, tỉ lệ đúng là 89%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dxz-xm" data-eid="18517" data-lid="19" data-sid="8" data-pid="18514" data-tid="89">
+                <div class="field-heading">
+                 <div class="field-number">
+                  13
+                 </div> 
+                 <div class="field-inline-group">
+                  <div class="field-audio">
+                   <div id="w12" class="audio circle-audio circle-audio-md" data-loop="2" data-interval="3000" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18517.mp3&quot;}" data-extend="cp01994831">
+                    <div id="w12-jplayer" class="cp-jplayer"></div> 
+                    <div id="w12-container" class="cp-container"> 
+                     <div class="cp-buffer-holder"> 
+                      <div class="cp-buffer-1"></div> 
+                      <div class="cp-buffer-2"></div> 
+                     </div> 
+                     <div class="cp-progress-holder"> 
+                      <div class="cp-progress-1"></div> 
+                      <div class="cp-progress-2"></div> 
+                     </div> 
+                     <div class="cp-circle-control"></div> 
+                     <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                     </div> 
+                    </div>
+                   </div>
+                  </div> 
+                  <div class="field-items">
+                   <div class="field-option-wrap inline" data-no="0">
+                    <div class="field-option">
+                     A
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="1">
+                    <div class="field-option">
+                     B
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="2">
+                    <div class="field-option">
+                     C
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="3">
+                    <div class="field-option">
+                     D
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="4">
+                    <div class="field-option">
+                     E
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="field-subject ans-hide">
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>现在</span><rt>Xiànzài</rt><span>几</span><rt>jǐ</rt><span>点</span><rt>diǎn</rt><span>了？</span><rt>le?</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>现在</span><rt>Xiànzài</rt><span>十</span><rt>shí</rt><span>点</span><rt>diǎn</rt><span>零七。</span><rt>língqī.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>A</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7941 lần, tỉ lệ đúng là 96%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dxz-xm" data-eid="18518" data-lid="19" data-sid="8" data-pid="18514" data-tid="89">
+                <div class="field-heading">
+                 <div class="field-number">
+                  14
+                 </div> 
+                 <div class="field-inline-group">
+                  <div class="field-audio">
+                   <div id="w13" class="audio circle-audio circle-audio-md" data-loop="2" data-interval="3000" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18518.mp3&quot;}" data-extend="cp01994831">
+                    <div id="w13-jplayer" class="cp-jplayer"></div> 
+                    <div id="w13-container" class="cp-container"> 
+                     <div class="cp-buffer-holder"> 
+                      <div class="cp-buffer-1"></div> 
+                      <div class="cp-buffer-2"></div> 
+                     </div> 
+                     <div class="cp-progress-holder"> 
+                      <div class="cp-progress-1"></div> 
+                      <div class="cp-progress-2"></div> 
+                     </div> 
+                     <div class="cp-circle-control"></div> 
+                     <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                     </div> 
+                    </div>
+                   </div>
+                  </div> 
+                  <div class="field-items">
+                   <div class="field-option-wrap inline" data-no="0">
+                    <div class="field-option">
+                     A
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="1">
+                    <div class="field-option">
+                     B
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="2">
+                    <div class="field-option">
+                     C
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="3">
+                    <div class="field-option">
+                     D
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="4">
+                    <div class="field-option">
+                     E
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="field-subject ans-hide">
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>来，喝</span><rt>Lái，hē</rt><span>杯</span><rt>bēi</rt><span>热</span><rt>rè</rt><span>水。</span><rt>shuǐ.</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>谢谢</span><rt>Xièxie</rt><span>你。</span><rt>nǐ.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>D</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7942 lần, tỉ lệ đúng là 95%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dxz-xm" data-eid="18519" data-lid="19" data-sid="8" data-pid="18514" data-tid="89">
+                <div class="field-heading">
+                 <div class="field-number">
+                  15
+                 </div> 
+                 <div class="field-inline-group">
+                  <div class="field-audio">
+                   <div id="w14" class="audio circle-audio circle-audio-md" data-loop="2" data-interval="3000" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18519.mp3&quot;}" data-extend="cp01994831">
+                    <div id="w14-jplayer" class="cp-jplayer"></div> 
+                    <div id="w14-container" class="cp-container"> 
+                     <div class="cp-buffer-holder"> 
+                      <div class="cp-buffer-1"></div> 
+                      <div class="cp-buffer-2"></div> 
+                     </div> 
+                     <div class="cp-progress-holder"> 
+                      <div class="cp-progress-1"></div> 
+                      <div class="cp-progress-2"></div> 
+                     </div> 
+                     <div class="cp-circle-control"></div> 
+                     <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                     </div> 
+                    </div>
+                   </div>
+                  </div> 
+                  <div class="field-items">
+                   <div class="field-option-wrap inline" data-no="0">
+                    <div class="field-option">
+                     A
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="1">
+                    <div class="field-option">
+                     B
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="2">
+                    <div class="field-option">
+                     C
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="3">
+                    <div class="field-option">
+                     D
+                    </div>
+                   </div> 
+                   <div class="field-option-wrap inline" data-no="4">
+                    <div class="field-option">
+                     E
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="field-subject ans-hide">
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>你</span><rt>Nǐ</rt><span>现在</span><rt>xiànzài</rt><span>去</span><rt>qù</rt><span>火车站？</span><rt>huǒchēzhàn?</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>是的，再见，下个</span><rt>Shìde，zàijiàn，xiàge</rt><span>月</span><rt>yuè</rt><span>见。</span><rt>jiàn.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>B</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7932 lần, tỉ lệ đúng là 86%
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18520" data-lid="19" data-sid="10" data-pid="0" data-tid="38">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu, chọn đáp án phù hợp với câu hỏi
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">16</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               16
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>他</span><rt>Tā</rt><span>很</span><rt>hěn</rt><span>喜欢</span><rt>xǐhuan</rt><span>那</span><rt>nà</rt><span>些</span><rt>xiē</rt><span>学生。</span><rt>xuésheng.</rt></ruby></p>
+              </div> 
+              <div class="field-question ans-hide">
+               <p class="pinyin"><ruby><span>他</span><rt>Tā</rt><span>喜欢</span><rt>xǐhuan</rt><span>什么？</span><rt>shénme?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w15" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18520.mp3&quot;}" data-extend="cp01994831">
+                <div id="w15-jplayer" class="cp-jplayer"></div> 
+                <div id="w15-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items cols-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>吃</span><rt>chī</rt><span>水果</span><rt>shuǐguǒ</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>学习</span><rt>xuéxí</rt><span>汉语</span><rt>Hànyǔ</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap answer" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>那</span><rt>nà</rt><span>些</span><rt>xiē</rt><span>学生</span><rt>xuésheng</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>C</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7651 lần, tỉ lệ đúng là 97%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18521" data-lid="19" data-sid="10" data-pid="0" data-tid="38">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu, chọn đáp án phù hợp với câu hỏi
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">17</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               17
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>王</span><rt>Wáng</rt><span>医生</span><rt>yīsheng</rt><span>的</span><rt>de</rt><span>女儿</span><rt>nǚ'ér</rt><span>今年</span><rt>jīnnián</rt><span>八</span><rt>bā</rt><span>岁</span><rt>suì</rt><span>了。</span><rt>le.</rt></ruby></p>
+              </div> 
+              <div class="field-question ans-hide">
+               <p class="pinyin"><ruby><span>王</span><rt>Wáng</rt><span>医生</span><rt>yīsheng</rt><span>的</span><rt>de</rt><span>女儿</span><rt>nǚ'ér</rt><span>多大</span><rt>duōdà</rt><span>了？</span><rt>le?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w16" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18521.mp3&quot;}" data-extend="cp01994831">
+                <div id="w16-jplayer" class="cp-jplayer"></div> 
+                <div id="w16-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items cols-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>儿子</span><rt>érzi</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap answer" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>8</span><rt></rt><span>岁</span><rt>suì</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>不</span><rt>bú</rt><span>客气</span><rt>kèqi</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7650 lần, tỉ lệ đúng là 98%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18522" data-lid="19" data-sid="10" data-pid="0" data-tid="38">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu, chọn đáp án phù hợp với câu hỏi
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">18</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               18
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>昨天</span><rt>Zuótiān</rt><span>上午</span><rt>shàngwǔ</rt><span>我</span><rt>wǒ</rt><span>和</span><rt>hé</rt><span>朋友</span><rt>péngyou</rt><span>去</span><rt>qù</rt><span>看</span><rt>kàn</rt><span>电影</span><rt>diànyǐng</rt><span>了。</span><rt>le.</rt></ruby></p>
+              </div> 
+              <div class="field-question ans-hide">
+               <p class="pinyin"><ruby><span>他</span><rt>Tā</rt><span>昨天</span><rt>zuótiān</rt><span>和</span><rt>hé</rt><span>谁</span><rt>shuí</rt><span>去</span><rt>qù</rt><span>看</span><rt>kàn</rt><span>电影</span><rt>diànyǐng</rt><span>了？</span><rt>le?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w17" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18522.mp3&quot;}" data-extend="cp01994831">
+                <div id="w17-jplayer" class="cp-jplayer"></div> 
+                <div id="w17-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items cols-2">
+               <div class="field-option-wrap answer" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>朋友</span><rt>péngyou</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>老师</span><rt>lǎoshī</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>女儿</span><rt>nǚ’ér</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7647 lần, tỉ lệ đúng là 99%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18523" data-lid="19" data-sid="10" data-pid="0" data-tid="38">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu, chọn đáp án phù hợp với câu hỏi
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">19</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               19
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>这</span><rt>Zhè</rt><span>本</span><rt>běn</rt><span>书</span><rt>shū</rt><span>三十七</span><rt>sānshíqī</rt><span>块</span><rt>kuài</rt><span>钱，我</span><rt>qián，wǒ</rt><span>想</span><rt>xiǎng</rt><span>买</span><rt>mǎi</rt><span>这</span><rt>zhè</rt><span>本</span><rt>běn</rt><span>书。</span><rt>shū.</rt></ruby></p>
+              </div> 
+              <div class="field-question ans-hide">
+               <p class="pinyin"><ruby><span>那</span><rt>Nà</rt><span>本</span><rt>běn</rt><span>书</span><rt>shū</rt><span>多少</span><rt>duōshao</rt><span>钱？</span><rt>qián?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w18" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18523.mp3&quot;}" data-extend="cp01994831">
+                <div id="w18-jplayer" class="cp-jplayer"></div> 
+                <div id="w18-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items cols-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>25</span><rt></rt><span>块</span><rt>kuài</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap answer" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>37</span><rt></rt><span>块</span><rt>kuài</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>48</span><rt></rt><span>块</span><rt>kuài</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7638 lần, tỉ lệ đúng là 96%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-xzt" data-eid="18524" data-lid="19" data-sid="10" data-pid="0" data-tid="38">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Nghe câu, chọn đáp án phù hợp với câu hỏi
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">20</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               20
+              </div> 
+              <div class="field-subject ans-hide">
+               <p class="pinyin"><ruby><span>这个</span><rt>Zhège</rt><span>饭馆儿</span><rt>fànguǎnr</rt><span>里</span><rt>lǐ</rt><span>的</span><rt>de</rt><span>人</span><rt>rén</rt><span>很</span><rt>hěn</rt><span>少。</span><rt>shǎo.</rt></ruby></p>
+              </div> 
+              <div class="field-question ans-hide">
+               <p class="pinyin"><ruby><span>那个</span><rt>Nàge</rt><span>饭馆儿</span><rt>fànguǎnr</rt><span>怎么样？</span><rt>zěnmeyàng?</rt></ruby></p>
+              </div> 
+              <div class="field-audio">
+               <div id="w19" class="audio circle-audio" data-ride="circleAudio" data-media="{&quot;mp3&quot;:&quot;http://f.hskcdn.com/old/web/31/64/398/audio/topic/18524.mp3&quot;}" data-extend="cp01994831">
+                <div id="w19-jplayer" class="cp-jplayer"></div> 
+                <div id="w19-container" class="cp-container"> 
+                 <div class="cp-buffer-holder"> 
+                  <div class="cp-buffer-1"></div> 
+                  <div class="cp-buffer-2"></div> 
+                 </div> 
+                 <div class="cp-progress-holder"> 
+                  <div class="cp-progress-1"></div> 
+                  <div class="cp-progress-2"></div> 
+                 </div> 
+                 <div class="cp-circle-control"></div> 
+                 <div class="cp-controls"> <a class="cp-play" tabindex="1"><i class="glyphicon glyphicon-play"></i></a> <a class="cp-pause" style="display:none;" tabindex="1"><i class="glyphicon glyphicon-pause"></i></a> 
+                 </div> 
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-items cols-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>很</span><rt>hěn</rt><span>热</span><rt>rè</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>很</span><rt>hěn</rt><span>小</span><rt>xiǎo</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap answer" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>人</span><rt>rén</rt><span>很</span><rt>hěn</rt><span>少</span><rt>shǎo</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>C</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7653 lần, tỉ lệ đúng là 53%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18525" data-lid="19" data-sid="13" data-pid="0" data-tid="90">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">21</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               21
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-21.jpg" alt="">
+              </div> 
+              <div class="text-center field-subject">
+               <p class="pinyin"><ruby><span>苹果</span><rt>píngguǒ</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap answer" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7688 lần, tỉ lệ đúng là 99%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18526" data-lid="19" data-sid="13" data-pid="0" data-tid="90">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">22</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               22
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-22.jpg" alt="">
+              </div> 
+              <div class="text-center field-subject">
+               <p class="pinyin"><ruby><span>听</span><rt>tīng</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap answer" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7685 lần, tỉ lệ đúng là 99%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18527" data-lid="19" data-sid="13" data-pid="0" data-tid="90">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">23</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               23
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-23.jpg" alt="">
+              </div> 
+              <div class="text-center field-subject">
+               <p class="pinyin"><ruby><span>椅子</span><rt>yǐzi</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap answer" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7690 lần, tỉ lệ đúng là 96%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18528" data-lid="19" data-sid="13" data-pid="0" data-tid="90">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">24</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               24
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-24.jpg" alt="">
+              </div> 
+              <div class="text-center field-subject">
+               <p class="pinyin"><ruby><span>写</span><rt>xiě</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap answer" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>A</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7688 lần, tỉ lệ đúng là 98%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dct" data-eid="18529" data-lid="19" data-sid="13" data-pid="0" data-tid="90">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Phán đoán đúng sai
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">25</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               25
+              </div> 
+              <div class="field-image">
+               <img src="http://f.hskcdn.com/cms/res/180123/1-8-25.jpg" alt="">
+              </div> 
+              <div class="text-center field-subject">
+               <p class="pinyin"><ruby><span>出租车</span><rt>chūzūchē</rt></ruby></p>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="cols-2 field-options">
+               <br> 
+               <div class="field-option-wrap" data-no="0"> 
+                <div class="field-option"> <span class="field-no">A</span><i class="glyphicon glyphicon-ok"></i> 
+                </div> 
+               </div> 
+               <div class="field-option-wrap answer" data-no="1"> 
+                <div class="field-option"> <span class="field-no">B</span><i class="glyphicon glyphicon-remove"></i> 
+                </div> 
+               </div>
+              </div>
+             </div> 
+             <div class="field-footer">
+              <div class="field-answer ans-hide">
+               <label>Đáp án đúng:</label><span>B</span>
+              </div> 
+              <div class="field-counter">
+               Câu hỏi này được trả lời 7686 lần, tỉ lệ đúng là 85%
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dxz" data-eid="18530" data-lid="19" data-sid="15" data-pid="0" data-tid="39">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Chọn hình ảnh tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">26-30</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               26-30
+              </div> 
+              <div class="field-items">
+               <div class="field-option-wrap field-image" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-26-1.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-26-2.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-26-3.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="3">
+                <div class="field-option">
+                 <span class="field-no">D</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-26-4.jpg" alt="">
+                </div>
+               </div> 
+               <div class="field-option-wrap field-image" data-no="4">
+                <div class="field-option">
+                 <span class="field-no">E</span>
+                 <img src="http://f.hskcdn.com/cms/res/180123/1-8-26-5.jpg" alt="">
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-children">
+               <div class="exercise-view exercise-child exercise-xzt" data-eid="18531" data-lid="19" data-sid="15" data-pid="18530" data-tid="39">
+                <div class="field-heading">
+                 <div class="field-number">
+                  26
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>的</span><rt>de</rt><span>飞机</span><rt>fēijī</rt><span>能</span><rt>néng</rt><span>飞</span><rt>fēi</rt><span>吗</span><rt>ma</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-body text-center">
+                 <div class="field-items inline-block">
+                  <div class="field-option-wrap inline" data-no="0">
+                   <div class="field-option">
+                    A
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="1">
+                   <div class="field-option">
+                    B
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="2">
+                   <div class="field-option">
+                    C
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="3">
+                   <div class="field-option">
+                    D
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="4">
+                   <div class="field-option">
+                    E
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>A</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7691 lần, tỉ lệ đúng là 98%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-xzt" data-eid="18532" data-lid="19" data-sid="15" data-pid="18530" data-tid="39">
+                <div class="field-heading">
+                 <div class="field-number">
+                  27
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>今天</span><rt>Jīntiān</rt><span>天气</span><rt>tiānqì</rt><span>很</span><rt>hěn</rt><span>冷</span><rt>lěng</rt><span>.</span><rt>.</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-body text-center">
+                 <div class="field-items inline-block">
+                  <div class="field-option-wrap inline" data-no="0">
+                   <div class="field-option">
+                    A
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="1">
+                   <div class="field-option">
+                    B
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="2">
+                   <div class="field-option">
+                    C
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="3">
+                   <div class="field-option">
+                    D
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="4">
+                   <div class="field-option">
+                    E
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>D</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7694 lần, tỉ lệ đúng là 98%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-xzt" data-eid="18533" data-lid="19" data-sid="15" data-pid="18530" data-tid="39">
+                <div class="field-heading">
+                 <div class="field-number">
+                  28
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>坐</span><rt>zuò</rt><span>在</span><rt>zài</rt><span>这儿</span><rt>zhèr</rt><span>想</span><rt>xiǎng</rt><span>什么</span><rt>shénme</rt><span>呢</span><rt>ne</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-body text-center">
+                 <div class="field-items inline-block">
+                  <div class="field-option-wrap inline" data-no="0">
+                   <div class="field-option">
+                    A
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="1">
+                   <div class="field-option">
+                    B
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="2">
+                   <div class="field-option">
+                    C
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="3">
+                   <div class="field-option">
+                    D
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="4">
+                   <div class="field-option">
+                    E
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>C</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7688 lần, tỉ lệ đúng là 93%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-xzt" data-eid="18534" data-lid="19" data-sid="15" data-pid="18530" data-tid="39">
+                <div class="field-heading">
+                 <div class="field-number">
+                  29
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>喂</span><rt>Wéi</rt><span>，</span><rt>，</rt><span>你</span><rt>nǐ</rt><span>是</span><rt>shì</rt><span>谁</span><rt>shuí</rt><span>？</span><rt>？</rt><span>怎么</span><rt>Zěnme</rt><span>不</span><rt>bù</rt><span>说话</span><rt>shuōhuà</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-body text-center">
+                 <div class="field-items inline-block">
+                  <div class="field-option-wrap inline" data-no="0">
+                   <div class="field-option">
+                    A
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="1">
+                   <div class="field-option">
+                    B
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="2">
+                   <div class="field-option">
+                    C
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="3">
+                   <div class="field-option">
+                    D
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="4">
+                   <div class="field-option">
+                    E
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>B</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7690 lần, tỉ lệ đúng là 95%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-xzt" data-eid="18535" data-lid="19" data-sid="15" data-pid="18530" data-tid="39">
+                <div class="field-heading">
+                 <div class="field-number">
+                  30
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>谢</span><rt>Xiè</rt><span>小姐</span><rt>xiǎojiě</rt><span>买</span><rt>mǎi</rt><span>了</span><rt>le</rt><span>很多</span><rt>hěnduō</rt><span>东西</span><rt>dōngxi</rt><span>.</span><rt>。</rt></ruby></p>
+                 </div>
+                </div> 
+                <div class="field-body text-center">
+                 <div class="field-items inline-block">
+                  <div class="field-option-wrap inline" data-no="0">
+                   <div class="field-option">
+                    A
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="1">
+                   <div class="field-option">
+                    B
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="2">
+                   <div class="field-option">
+                    C
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="3">
+                   <div class="field-option">
+                    D
+                   </div>
+                  </div> 
+                  <div class="field-option-wrap inline" data-no="4">
+                   <div class="field-option">
+                    E
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>E</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7691 lần, tỉ lệ đúng là 97%
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dyt" data-eid="18536" data-lid="19" data-sid="17" data-pid="0" data-tid="40">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Chọn câu tương ứng
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">31-35</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               31-35
+              </div> 
+              <div class="field-items cols-md-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>很</span><rt>Hěn</rt><span>好</span><rt>hǎo</rt><span>。</span><rt>.</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>桌子</span><rt>Zhuōzi</rt><span>上</span><rt>shang</rt><span>。</span><rt>.</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>医院</span><rt>Yīyuàn</rt><span>。</span><rt>.</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="3">
+                <div class="field-option">
+                 <span class="field-no">D</span>
+                 <p class="pinyin"><ruby><span>我</span><rt>Wǒ</rt><span>不</span><rt>bú</rt><span>认识</span><rt>rènshi</rt><span>。</span><rt>.</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="4">
+                <div class="field-option">
+                 <span class="field-no">E</span>
+                 <p class="pinyin"><ruby><span>9</span><rt></rt><span>月</span><rt>yuè</rt><span>1</span><rt></rt><span>日</span><rt>rì</rt><span>。</span><rt>.</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-children">
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18537" data-lid="19" data-sid="17" data-pid="18536" data-tid="40">
+                <div class="field-heading">
+                 <div class="field-number">
+                  31
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>那个</span><rt>nàge</rt><span>同学</span><rt>tóngxué</rt><span>在</span><rt>zài</rt><span>哪儿</span><rt>nǎr</rt><span>工作</span><rt>gōngzuò</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>C</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7622 lần, tỉ lệ đúng là 86%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18538" data-lid="19" data-sid="17" data-pid="18536" data-tid="40">
+                <div class="field-heading">
+                 <div class="field-number">
+                  32
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>打</span><rt>Dǎ</rt><span>电话</span><rt>diànhuà</rt><span>的</span><rt>de</rt><span>那个</span><rt>nàge</rt><span>人</span><rt>rén</rt><span>是</span><rt>shì</rt><span>谁</span><rt>shuí</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>D</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7621 lần, tỉ lệ đúng là 87%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18539" data-lid="19" data-sid="17" data-pid="18536" data-tid="40">
+                <div class="field-heading">
+                 <div class="field-number">
+                  33
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>什么</span><rt>shénme</rt><span>时候</span><rt>shíhou</rt><span>回</span><rt>huí</rt><span>中国</span><rt>Zhōngguó</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>E</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7622 lần, tỉ lệ đúng là 91%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18540" data-lid="19" data-sid="17" data-pid="18536" data-tid="40">
+                <div class="field-heading">
+                 <div class="field-number">
+                  34
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>我</span><rt>Wǒ</rt><span>的</span><rt>de</rt><span>茶杯</span><rt>chábēi</rt><span>呢</span><rt>ne</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>B</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7619 lần, tỉ lệ đúng là 78%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18541" data-lid="19" data-sid="17" data-pid="18536" data-tid="40">
+                <div class="field-heading">
+                 <div class="field-number">
+                  35
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>我</span><rt>Wǒ</rt><span>妈妈</span><rt>māma</rt><span>做</span><rt>zuò</rt><span>的</span><rt>de</rt><span>菜</span><rt>cài</rt><span>怎么样</span><rt>zěnmeyàng</rt><span>？</span><rt>？</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>A</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7618 lần, tỉ lệ đúng là 85%
+                 </div>
+                </div>
+               </div>
+              </div> 
+              <div class="text-center rev-hide exr-test-hide field-buttons">
+               <button class="btn btn-next btn-long btn-lg btn-round field-confirm">Nộp</button>
+              </div>
+             </div>
+            </div>
+           </div> 
+           <div class="item">
+            <div class="exercise-view exercise-dyt" data-eid="18542" data-lid="19" data-sid="19" data-pid="0" data-tid="41">
+             <div class="exr-heading">
+              <div class="exr-caption">
+               Đề thi thật - Đề thi thật Bộ3 - Chọn từ điền vào chỗ trống
+              </div> 
+              <div class="exr-progress">
+               <span class="cur">36-40</span>/40
+              </div>
+             </div> 
+             <div class="field-heading">
+              <div class="field-number">
+               36-40
+              </div> 
+              <div class="field-items cols-2">
+               <div class="field-option-wrap" data-no="0">
+                <div class="field-option">
+                 <span class="field-no">A</span>
+                 <p class="pinyin"><ruby><span>星期</span><rt>xīngqī</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="1">
+                <div class="field-option">
+                 <span class="field-no">B</span>
+                 <p class="pinyin"><ruby><span>儿子</span><rt>érzi</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="2">
+                <div class="field-option">
+                 <span class="field-no">C</span>
+                 <p class="pinyin"><ruby><span>太</span><rt>tài</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="3">
+                <div class="field-option">
+                 <span class="field-no">D</span>
+                 <p class="pinyin"><ruby><span>开</span><rt>kāi</rt></ruby></p>
+                </div>
+               </div> 
+               <div class="field-option-wrap" data-no="4">
+                <div class="field-option">
+                 <span class="field-no">E</span>
+                 <p class="pinyin"><ruby><span>吃</span><rt>chī</rt></ruby></p>
+                </div>
+               </div>
+              </div>
+             </div> 
+             <div class="field-body">
+              <div class="field-children">
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18543" data-lid="19" data-sid="19" data-pid="18542" data-tid="41">
+                <div class="field-heading">
+                 <div class="field-number">
+                  36
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>我们</span><rt>Wǒmen</rt><span>中午</span><rt>zhōngwǔ</rt><span>()</span><rt>()</rt><span>米饭</span><rt>mǐfàn</rt><span>。</span><rt>.</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>E</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7565 lần, tỉ lệ đúng là 98%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18544" data-lid="19" data-sid="19" data-pid="18542" data-tid="41">
+                <div class="field-heading">
+                 <div class="field-number">
+                  37
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>你</span><rt>Nǐ</rt><span>今天</span><rt>jīntiān</rt><span>()</span><rt>()</rt><span>漂亮</span><rt>piàoliang</rt><span>了</span><rt>le</rt><span>！</span><rt>！</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>C</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7560 lần, tỉ lệ đúng là 88%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18545" data-lid="19" data-sid="19" data-pid="18542" data-tid="41">
+                <div class="field-heading">
+                 <div class="field-number">
+                  38
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>她</span><rt>Tā</rt><span>()</span><rt>()</rt><span>现在</span><rt>xiànzài</rt><span>在</span><rt>zài</rt><span>北京</span><rt>Běijīng</rt><span>读</span><rt>dú</rt><span>书</span><rt>shū</rt><span>。</span><rt>.</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>B</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7544 lần, tỉ lệ đúng là 81%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18546" data-lid="19" data-sid="19" data-pid="18542" data-tid="41">
+                <div class="field-heading">
+                 <div class="field-number">
+                  39
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>下</span><rt>Xià</rt><span>雨</span><rt>yǔ</rt><span>了</span><rt>le</rt><span>，</span><rt>，</rt><span>你</span><rt>nǐ</rt><span>怎么</span><rt>zěnme</rt><span>回</span><rt>huí</rt><span>家</span><rt>jiā</rt><span>？</span><rt>？</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>没</span><rt>Méi</rt><span>关系</span><rt>guānxi</rt><span>，</span><rt>，</rt><span>我</span><rt>wǒ</rt><span>()</span><rt>()</rt><span>车</span><rt>chē</rt><span>了</span><rt>le</rt><span>。</span><rt>.</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>D</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7563 lần, tỉ lệ đúng là 84%
+                 </div>
+                </div>
+               </div> 
+               <div class="exercise-view exercise-child exercise-dyt-child" data-eid="18547" data-lid="19" data-sid="19" data-pid="18542" data-tid="41">
+                <div class="field-heading">
+                 <div class="field-number">
+                  40
+                 </div> 
+                 <div class="field-subject">
+                  <p class="pinyin"><ruby><span>男</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>你</span><rt>Nǐ</rt><span>明天</span><rt>míngtiān</rt><span>几</span><rt>jǐ</rt><span>点</span><rt>diǎn</rt><span>去</span><rt>qù</rt><span>学校</span><rt>xuéxiào</rt><span>？</span><rt>？</rt></ruby></p> 
+                  <p class="pinyin"><ruby><span>女</span><rt>&nbsp;</rt><span>:</span><rt>&nbsp;</rt><span>明天</span><rt>Míngtiān</rt><span>是</span><rt>shì</rt><span>()</span><rt>()</rt><span>六</span><rt>liù</rt><span>，</span><rt>，</rt><span>我</span><rt>wǒ</rt><span>不</span><rt>bú</rt><span>去</span><rt>qù</rt><span>学校</span><rt>xuéxiào</rt><span>。</span><rt>.</rt></ruby></p>
+                 </div> 
+                 <div class="field-select"></div>
+                </div> 
+                <div class="field-footer">
+                 <div class="field-answer ans-hide">
+                  <label>Đáp án đúng:</label><span>A</span>
+                 </div> 
+                 <div class="field-counter">
+                  Câu hỏi này được trả lời 7557 lần, tỉ lệ đúng là 88%
+                 </div>
+                </div>
+               </div>
+              </div> 
+              <div class="text-center rev-hide exr-test-hide field-buttons">
+               <button class="btn btn-next btn-long btn-lg btn-round field-confirm">Nộp</button>
+              </div>
+             </div>
+            </div>
+           </div> 
+          </div> 
+         </div> 
+         <br>
+         <br> 
+         <div id="exr-ops" class="block-footer btn-full"> <button id="exr-prev" class="btn btn-prev btn-block btn-lg btn-noradius" href="#exercise-list" disabled role="button" data-slide="prev">Câu trước</button> <button id="exr-next" class="btn btn-next btn-block btn-lg btn-noradius" href="#exercise-list" role="button" data-slide="next">Câu tiếp theo</button> <button id="exr-submit" class="btn btn-next btn-block btn-lg btn-noradius hide">Nộp bài thi</button> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="sidebar"> 
+        <div id="paper-countdown" class="block"> 
+         <p class="text-center"> <img src="/images/icons/time.png" alt=""> </p> 
+         <p class="text-center"> <span class="cd-label">Thời gian còn lại:</span> <span class="cd-time"></span> </p> 
+         <div> <a href="#" class="btn btn-success btn-block btn-long hide" data-op="start">Bắt đầu</a> <a href="#" class="btn btn-success btn-block btn-long" data-op="stop">Tạm dừng</a> 
+         </div> 
+        </div> 
+        <div id="answer-sheets" class="panel-group accordion" role="tablist" aria-multiselectable="true"> 
+         <div class="panel panel-primary panel-hover"> 
+          <div id="answer-sheet-heading-0" class="panel-heading" role="tab"> <a class="text-center" href="#answer-sheet-0" data-toggle="collapse" data-parent="#answer-sheets" aria-expanded="false" aria-controls="answer-sheet-0">Nghe</a> 
+          </div> 
+          <div id="answer-sheet-0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="answer-sheet-heading-0"> 
+           <div class="panel-body"> 
+            <ul class="exr-numbers"> 
+             <li class="null" data-target="#exercise-list" data-slide-to="0" data-eid="18504"><a href="#">1</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="1" data-eid="18505"><a href="#">2</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="2" data-eid="18506"><a href="#">3</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="3" data-eid="18507"><a href="#">4</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="4" data-eid="18508"><a href="#">5</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="5" data-eid="18509"><a href="#">6</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="6" data-eid="18510"><a href="#">7</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="7" data-eid="18511"><a href="#">8</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="8" data-eid="18512"><a href="#">9</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="9" data-eid="18513"><a href="#">10</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="10" data-eid="18515"><a href="#">11</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="10" data-eid="18516"><a href="#">12</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="10" data-eid="18517"><a href="#">13</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="10" data-eid="18518"><a href="#">14</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="10" data-eid="18519"><a href="#">15</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="11" data-eid="18520"><a href="#">16</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="12" data-eid="18521"><a href="#">17</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="13" data-eid="18522"><a href="#">18</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="14" data-eid="18523"><a href="#">19</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="15" data-eid="18524"><a href="#">20</a></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="panel panel-primary panel-hover"> 
+          <div id="answer-sheet-heading-1" class="panel-heading" role="tab"> <a class="text-center" href="#answer-sheet-1" data-toggle="collapse" data-parent="#answer-sheets" aria-expanded="false" aria-controls="answer-sheet-1">Đọc hiểu</a> 
+          </div> 
+          <div id="answer-sheet-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="answer-sheet-heading-1"> 
+           <div class="panel-body"> 
+            <ul class="exr-numbers"> 
+             <li class="null" data-target="#exercise-list" data-slide-to="16" data-eid="18525"><a href="#">21</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="17" data-eid="18526"><a href="#">22</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="18" data-eid="18527"><a href="#">23</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="19" data-eid="18528"><a href="#">24</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="20" data-eid="18529"><a href="#">25</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="21" data-eid="18531"><a href="#">26</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="21" data-eid="18532"><a href="#">27</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="21" data-eid="18533"><a href="#">28</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="21" data-eid="18534"><a href="#">29</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="21" data-eid="18535"><a href="#">30</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="22" data-eid="18537"><a href="#">31</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="22" data-eid="18538"><a href="#">32</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="22" data-eid="18539"><a href="#">33</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="22" data-eid="18540"><a href="#">34</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="22" data-eid="18541"><a href="#">35</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="23" data-eid="18543"><a href="#">36</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="23" data-eid="18544"><a href="#">37</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="23" data-eid="18545"><a href="#">38</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="23" data-eid="18546"><a href="#">39</a></li>
+             <li class="null" data-target="#exercise-list" data-slide-to="23" data-eid="18547"><a href="#">40</a></li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer class="footer"> 
+   <div class="links"> 
+    <div class="container"> 
+     <ul class="link-items" style="width: 50%;"> 
+      <li class="heading">HSK Online</li> 
+      <li><a href="/vi/1">HSK cấp 1</a></li> 
+      <li><a href="/vi/2">HSK cấp 2</a></li> 
+      <li><a href="/vi/3">HSK cấp 3</a></li> 
+      <li><a href="/vi/4">HSK cấp 4</a></li> 
+      <li><a href="/vi/5">HSK cấp 5</a></li> 
+      <li><a href="/vi/6">HSK cấp 6</a></li> 
+     </ul> 
+     <!--
+        <ul class="link-items" style="width: 33%;">
+            <li class="heading">Mạng xã hội</li>
+            <li><a href="https://twitter.com/HSKOnline2018" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/SuperChinese2018/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/SuperChinese2018" target="_blank">Instagram</a></li>
+        </ul>
+        --> 
+     <ul class="link-items" style="width: 50%;"> 
+      <li class="heading">Về HSK Online</li> 
+      <!--
+            <li><a href="http://www.superchinese.com/about.html" target="_blank">Giới thiệu</a></li>
+            <li><a href="http://www.superchinese.com/blog.html" target="_blank">Tin tức</a></li>
+            --> 
+      <li><a href="/vi/site/contact">Thông tin liên hệ</a></li> 
+      <!--
+            <li><a href="http://www.superchinese.com/about.html" target="_blank">Tuyển dụng</a></li>
+            <li><a href="http://www.superchinese.com/site/privacy" target="_blank">Thỏa thuận người dùng</a></li>
+            --> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="copyright text-center"> 
+    <div class="container">
+      @ 2019 hskonline.com 上海语轩信息科技有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank" style="color:white;">沪ICP备18012196号-5</a> 
+    </div> 
+   </div> 
+  </footer> 
+  <script src="/assets/5c8df9d6/jquery.js"></script> 
+  <script src="/assets/fbd1a955/jquery.extend.js?v=3"></script> 
+  <script src="/assets/e354e533/lib/circle-player/js/jquery.transform2d.js"></script> 
+  <script src="/assets/e354e533/lib/circle-player/js/jquery.grab.js"></script> 
+  <script src="/assets/e354e533/lib/circle-player/js/circle.player.js"></script> 
+  <script src="/assets/e354e533/jquery.jplayer.js"></script> 
+  <script src="/assets/e354e533/lib/circle-player/js/mod.csstransforms.min.js"></script> 
+  <script src="/assets/e354e533/script.js?v=1"></script> 
+  <script src="/assets/f90ccadd/yii.js"></script> 
+  <script src="/assets/8654ac94/js/check.js?v=4"></script> 
+  <script src="/assets/8654ac94/js/test.js?v=3"></script> 
+  <script src="/js/script.js"></script> 
+  <script src="/js/jquery.countdown.min.js"></script> 
+  <script src="/assets/218bf03/js/bootstrap.js"></script> 
+  <script>jQuery(function ($) {
+$('#exercise-list').exerciseChecker({"18504":"0","18505":"0","18506":"1","18507":"1","18508":"1","18509":"0","18510":"2","18511":"1","18512":"0","18513":"2","18515":"2","18516":"4","18517":"0","18518":"3","18519":"1","18520":"2","18521":"1","18522":"0","18523":"1","18524":"2","18525":"0","18526":"0","18527":"1","18528":"0","18529":"1","18531":"0","18532":"3","18533":"2","18534":"1","18535":"4","18537":"2","18538":"3","18539":"4","18540":"1","18541":"0","18543":"4","18544":"2","18545":"1","18546":"3","18547":"0"}, {"bf2bbb139349a0ca920041768302f231":{"type":"options","container":".exercise-dct .field-body","option":".field-option-wrap"},"4b69feeb14b3b2bd3ed3ff86b6cc4e5b":{"type":"options","event":"click","container":".exercise-xzt .field-body","items":".field-items","option":".field-option-wrap"},"d751713988987e9331980363e24189ce":[],"c93a07afb8af5f37e104517ae545932d":{"type":"options","event":"click","container":".exercise-dxz-xm","items":".field-items","option":".field-option-wrap"},"9b967d7aff073e66db7a0787f7c524d1":{"type":"dyt"}});
+$('#exercise-list').exerciseTest({"submit":"/vi/1/4/submit?lid=19","submitParams":{"recent_index":0}});
+
+        var paperDate = new Date(), stopOffsetDate, timeLeft = 2100, timeTotal = 2100;
+        paperDate.setSeconds(paperDate.getSeconds() + 2100);
+        $('#paper-countdown').on('click', '.btn[data-op]', function () {
+            var op = $(this).data('op');
+            if(op === 'start' && stopOffsetDate){
+                paperDate = new Date();
+                paperDate.setHours(paperDate.getHours() + stopOffsetDate.hours);
+                paperDate.setMinutes(paperDate.getMinutes() + stopOffsetDate.minutes);
+                paperDate.setSeconds(paperDate.getSeconds() + stopOffsetDate.seconds);
+                $('#paper-countdown').countdown('setFinalDate', paperDate);
+            }
+            $('#paper-countdown').countdown(op).find('.btn[data-op]').toggleClass('hide');
+            $('#exercise-list').exerciseTest('resetTime');
+        }).countdown(paperDate, function (event) {
+            timeLeft = event.offset.hours * 60 * 60 + event.offset.minutes * 60 + event.offset.seconds;
+            $('.cd-time', this).html(event.strftime('%H:%M:%S'));
+        }).on('stoped.countdown', function (event) {
+            stopOffsetDate = event.offset;
+        });
+        $('#exercise-list').on('slid.bs.carousel', function (e) {
+            var $el = $(e.relatedTarget), index = $el.index();
+            $('#exr-prev').prop('disabled', $el.prev().length === 0);
+            if ($el.next().length > 0) {
+                $('#exr-next').removeClass('hide');
+                $('#exr-submit').addClass('hide');
+            } else {
+                $('#exr-next').addClass('hide');
+                $('#exr-submit').removeClass('hide');
+            }
+            if (!$el.data('autoPlayed')) {
+                $el.find('.circle-audio').autoPlay();
+                $el.data('autoPlayed', 1);
+            } else if (e.direction === 'left') {
+                $el.prev().stopPlay();
+            } else {
+                $el.next().stopPlay();
+            }
+            $(this).exerciseTest('setSubmitParams', 'recent_index', index);
+            activeAnswerSheetPanel(index);
+        }).on('slide.bs.carousel', function (e) {
+            $('.item.active .exercise-view', this).trigger('next.hsk.test');
+        }).on('beforeSubmit', function (e) {
+            e.submitParams.duration = timeTotal - timeLeft;
+        });
+        $('#exr-submit').on('click', function (e) {
+            if(window.confirm('确定要提交试卷吗?')){
+                $('.item.active > .exercise-view', '#exercise-list').trigger('next.hsk.test');
+                $('#exercise-list').exerciseTest('submit', true).done(function (data) {
+                    window.location.href = '/vi/1/4/report?pid=' + data.exam_id;
+                });
+            }
+        });
+        function activeAnswerSheetPanel(index) {
+            var $collapse = $('li[data-slide-to=' + index + ']', '#answer-sheets').closest('.collapse');
+            if (!$collapse.hasClass('in')) {
+                $collapse.prev('.panel-heading').find('[data-toggle=collapse]').trigger('click');
+            }
+        }
+        activeAnswerSheetPanel(0);
+        window.setTimeout(function () {
+            $('.item.active', '#exercise-list').data('autoPlayed', 1).find('.circle-audio').autoPlay();
+        }, 1000);
+    
+});</script>  
+ </body>
+</html>
