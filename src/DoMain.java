@@ -102,7 +102,6 @@ public class DoMain {
 						 audio.get(0).parent().append(audioTemp);
 						 audio.get(0).remove();
 					 }
-//					 System.out.println(e.toString());
 					 
 				 }
 				 try {
@@ -111,7 +110,6 @@ public class DoMain {
 						    outputStream.write(strToBytes);
 						 
 						    outputStream.close();
-//							System.out.println(doc.data());
 					} catch (IOException e2) {
 						e2.printStackTrace();
 					}
@@ -119,9 +117,78 @@ public class DoMain {
 		}
 
 	}
+	
+	public static void parseHtmlToElearningProject() throws IOException {
+		FileOutputStream outputStream;
+		for (int i = 1 ; i <= 6 ; i++) {
+			for (int j = 0 ; j <= 9 ; j++) {
+				String text = new String(Files.readAllBytes(Paths.get("testAfterParse-"+i+"-"+j+".html")), StandardCharsets.UTF_8);
+				Document doc = Jsoup.parse(text);
+				Elements elements = doc.getElementsByClass("item");
+				for (Element e : elements) {
+					
+//					Element header = e.getElementsByClass("field-heading").get(0);
+					Elements bodies = e.getElementsByClass("field-body");
+					if (bodies.size() == 1) {
+						Element body = bodies.get(0);
+						Elements headers = body.getElementsByClass("field-heading");
+							if (headers.size()>0 && headers.get(0).getElementsByClass("field-option").size()>0) {
+								for (Element header:headers) {
+									Elements optionsElement = header.getElementsByClass("field-option");
+									Element newBody = new Element("div").addClass("field-body");
+									newBody.html(StringUtil.join(optionsElement, ""));
+									header.getElementsByClass("field-items").remove();
+									newBody.appendTo(header.parent());
+								}
+							} else {
+								Elements optionsElement = body.getElementsByClass("field-option");
+								body.html(StringUtil.join(optionsElement, ""));
+							}
+						
+						
+						
+						try {
+							e.getElementsByClass("field-counter").get(0).remove();
+							} catch (IndexOutOfBoundsException e2) {
+								// TODO: handle exception
+								System.out.println(i +"-"+j+"--"+e.html());
+							}
+					} else {
+						bodies.remove(0);
+						for (Element body : bodies) {
+							Elements optionsElement = body.getElementsByClass("field-option");
+							body.html(StringUtil.join(optionsElement, ""));
+							try {
+								e.getElementsByClass("field-counter").get(0).remove();
+								} catch (IndexOutOfBoundsException e2) {
+									// TODO: handle exception
+									System.out.println(i +"-"+j+"--"+e.html());
+								}
+						}
+					}
+					e.children().get(0).children().stream().forEach(element -> {
+						if (!element.className().contains("field-heading")
+								&& !element.className().contains("field-body")
+								&& !element.className().contains("field-footer")) {
+							element.remove();
+						}
+					});
+				}
+				try {
+					outputStream = new FileOutputStream("ElearningProject/test-"+i+"-"+j+".html");
+					 byte[] strToBytes = doc.getElementsByClass("item").toString().getBytes();
+					    outputStream.write(strToBytes);
+					 
+					    outputStream.close();
+				} catch (IOException e2) {
+					e2.printStackTrace();
+				}
+			}
+		}
+	}
 	public static void main(String[] args) {
 		try {
-			parseHtml();
+			parseHtmlToElearningProject();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
