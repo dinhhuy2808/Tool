@@ -5,9 +5,11 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.jsoup.Jsoup;
 import org.jsoup.internal.StringUtil;
@@ -186,9 +188,132 @@ public class DoMain {
 			}
 		}
 	}
+	
+	public static void parseMainHtmlToElearningProject() throws IOException {
+		FileOutputStream outputStream;
+		for (int i = 1 ; i <= 6 ; i++) {
+			for (int j = 0 ; j <= 9 ; j++) {
+				String text = new String(Files.readAllBytes(Paths.get("testAfterParse-"+i+"-"+j+".html")), StandardCharsets.UTF_8);
+				Document doc = Jsoup.parse(text);
+				Elements elements = doc.getElementsByClass("item");
+				Elements newElements = new Elements(); 
+				for(Element item : elements) {
+					int type = 0;
+					Elements headings = item.getElementsByClass("field-heading");
+					if (headings.size() == 0) {
+						type = 4;
+					} else if (headings.size() == 1)  {
+						if(headings.get(0).getElementsByClass("field-audio").size() > 0 ||
+								headings.get(0).getElementsByClass("field-image").size() > 0) {
+							type = 1;
+						} else {
+								type = 5;
+						}
+					} else {
+						if (item.getElementsByClass("field-select").size() > 0) {
+							type = 3;
+						} else if (headings.get(0).getElementsByClass("field-subject").size() > 0){
+							type = 6;
+						} else {
+							type = 2;
+						}
+					}
+					Element element = generateElement(type, item);
+					newElements.add(element);
+				}
+				
+				try {
+					String output = StringUtil.join(newElements, "\n");
+					outputStream = new FileOutputStream("ElearningProject2/test-"+i+"-"+j+".html");
+					 byte[] strToBytes = output.getBytes();
+					    outputStream.write(strToBytes);
+					 
+					    outputStream.close();
+				} catch (IOException e2) {
+					e2.printStackTrace();
+				}
+			}
+		}
+		
+	}
+	public static Element generateElement(int type, Element item) {
+		Element element = new Element("div").addClass("item").attr("type", String.valueOf(type));
+		Elements elemens = new Elements();
+		if (type == 1||type == 5) {
+			Element heading = item.getElementsByClass("field-heading").get(0);
+			Element number = null;
+			try {
+				number = heading.getElementsByClass("field-number").get(0);
+				heading.getElementsByClass("field-number").get(0).remove();
+			} catch (Exception e) {
+				System.out.println(item);
+				return new Element("div");
+			}
+			Element body = item.getElementsByClass("field-body").get(0);
+			Elements options = body.getElementsByClass("field-option");
+			body.html(StringUtil.join(options, "\n"));
+			Element footer = item.getElementsByClass("field-footer").get(0);
+			elemens.add(number);
+			elemens.add(heading);
+			elemens.add(body);
+			elemens.add(footer);
+			element.html(StringUtil.join(elemens, "\n"));
+		}
+		if (type == 2 || type == 3) {
+			Element heading = item.getElementsByClass("field-heading").get(0);
+			Element number = heading.getElementsByClass("field-number").get(0);
+			heading.getElementsByClass("field-number").get(0).remove();
+			Elements options = heading.getElementsByClass("field-option");
+			heading.html(StringUtil.join(options, "\n"));
+			
+			Element body = item.getElementsByClass("field-body").get(0);
+			Elements exerciseChilds = body.getElementsByClass("exercise-child");
+			for(Element exerciseChild : exerciseChilds) {
+				Element headingChild = exerciseChild.getElementsByClass("field-heading").get(0);
+				Element numberChild = headingChild.getElementsByClass("field-number").get(0);
+				headingChild.getElementsByClass("field-number").get(0).remove();
+				Element footerChild = exerciseChild.getElementsByClass("field-footer").get(0);
+				exerciseChild.html(StringUtil.join(Arrays.asList(numberChild,headingChild,footerChild), "\n"));
+			}
+			body.html(StringUtil.join(exerciseChilds, "\n"));
+			element.html(StringUtil.join(Arrays.asList(number,heading,body), "\n"));
+		}
+		
+		if (type == 4) {
+			Element number = item.getElementsByClass("exr-progress").get(0);
+			Element body = item.getElementsByClass("field-body").get(0);
+			Element selections = body.getElementsByClass("field-selection").get(0);
+			Elements options = body.getElementsByClass("field-option");
+			options.add(0, selections);
+			body.html(StringUtil.join(options,"\n"));
+			Element footer = item.getElementsByClass("field-footer").get(0);
+			element.html(StringUtil.join(Arrays.asList(number,body,footer), "\n"));
+		}
+		
+		if (type == 6) {
+			Element heading = item.getElementsByClass("field-heading").get(0);
+			Element number = heading.getElementsByClass("field-number").get(0);
+			heading.getElementsByClass("field-number").get(0).remove();
+			
+			Element body = item.getElementsByClass("field-body").get(0);
+			Elements options = body.getElementsByClass("field-option");
+			Elements exerciseChilds = body.getElementsByClass("exercise-child");
+			for(Element exerciseChild : exerciseChilds) {
+				Element headingChild = exerciseChild.getElementsByClass("field-heading").get(0);
+				Element numberChild = headingChild.getElementsByClass("field-number").get(0);
+				headingChild.getElementsByClass("field-number").get(0).remove();
+				Element footerChild = exerciseChild.getElementsByClass("field-footer").get(0);
+				exerciseChild.html(StringUtil.join(Arrays.asList(numberChild,headingChild,footerChild), "\n"));
+			}
+			options.addAll(exerciseChilds);
+			body.html(StringUtil.join(options, "\n"));
+			element.html(StringUtil.join(Arrays.asList(number,heading,body), "\n"));
+		}
+		return element;
+	}
 	public static void main(String[] args) {
 		try {
-			parseHtmlToElearningProject();
+			parseMainHtmlToElearningProject();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

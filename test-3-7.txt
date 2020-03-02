@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script type="text/javascript">
+        (function () {
+            var w = document.documentElement.clientWidth, min = 992;
+            if (w < min) {
+                var viewport = document.querySelector('meta[name=viewport]');
+                viewport.setAttribute('content', 'width=' + 992 + 'px, initial-scale=' + (w / min).toFixed(1));
+            }
+        })();
+    </script> 
+  <meta name="csrf-param" content="_csrf-frontend"> 
+  <meta name="csrf-token" content="oRKcZ_4ESJIROi-HnTtaVY2opQXOi_LbxN1G7W5gYN3jYso1lH0H3CV7Tc33Xmwcw-3mM6f_hZOUuX6sXjNVng=="> 
+  <title>Đăng nhập</title> 
+  <link href="/assets/218bf03/css/bootstrap.css" rel="stylesheet"> 
+  <link href="/css/style.css?v=12" rel="stylesheet"> 
+  <link href="/css/login.css?v=2" rel="stylesheet"> 
+  <script src="https://www.googletagmanager.com/gtag/js?id=UA-122298952-1" async></script> 
+  <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-122298952-1');
+gtag('config', 'AW-808467693');
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ym(53994931, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true
+});</script>
+ </head> 
+ <body> 
+  <div class="wrap"> 
+   <nav id="w0" class="navbar-inverse navbar" role="navigation">
+    <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button><a class="navbar-brand" href="/vi/"><img src="/logo80.png" alt=""> HSK Online</a>
+     </div>
+     <div id="w0-collapse" class="collapse navbar-collapse">
+      <ul id="w1" class="navbar-nav navbar-left nav">
+       <li><a href="/vi/app/index">Tải ứng dụng</a></li> 
+       <li><a href="/vi/corporate/services">Dịch vụ</a></li> 
+       <li><a href="/vi/upgrade/index">Nâng cấp</a></li> 
+       <li><a href="/vi/about/index">Về HSK Online</a></li>
+      </ul>
+      <ul id="w2" class="navbar-nav navbar-right nav">
+       <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Tiếng Việt <b class="caret"></b></a>
+        <ul id="w3" class="dropdown-menu">
+         <li><a href="/zh/site/language?destination=%2Fzh%2Fsite%2Flogin" tabindex="-1">简体中文</a></li> 
+         <li><a href="/en/site/language?destination=%2Fen%2Fsite%2Flogin" tabindex="-1">English</a></li> 
+         <li><a href="/ja/site/language?destination=%2Fja%2Fsite%2Flogin" tabindex="-1">日本語</a></li> 
+         <li><a href="/ko/site/language?destination=%2Fko%2Fsite%2Flogin" tabindex="-1">한국어</a></li> 
+         <li><a href="/th/site/language?destination=%2Fth%2Fsite%2Flogin" tabindex="-1">ภาษาไทย</a></li> 
+         <li><a href="/ru/site/language?destination=%2Fru%2Fsite%2Flogin" tabindex="-1">Русский</a></li>
+        </ul></li> 
+       <li><a href="/vi/site/login?layout=iframe" data-toggle="modal" data-target="#site-user-modal">Đăng nhập</a></li>
+      </ul>
+     </div>
+    </div>
+   </nav> 
+   <div class="site-login-master"> 
+    <img src="http://f.hskcdn.com/web/res/site/bg.jpg" width="100%" alt=""> 
+    <div class="container"> 
+     <div class="site-slogan"> 
+      <p>HSK Online</p> 
+      <p> Không thể thiếu cho kỳ thi HSK </p> 
+     </div> 
+     <div class="site-login"> <a class="scan-switch" href="/vi/site/qrauth"> <img src="/images/icons/scan-qr.png" alt=""> </a> 
+      <h1 class="text-center">Đăng nhập</h1> 
+      <form id="login-form" action="/vi/site/login" method="post" role="form"> 
+       <input type="hidden" name="_csrf-frontend" value="oRKcZ_4ESJIROi-HnTtaVY2opQXOi_LbxN1G7W5gYN3jYso1lH0H3CV7Tc33Xmwcw-3mM6f_hZOUuX6sXjNVng=="> 
+       <div class="form-group field-loginform-username required"> <label class="control-label" for="loginform-username">Tên</label> 
+        <input type="text" id="loginform-username" class="form-control input-default" name="LoginForm[username]" autofocus aria-required="true"> 
+        <p class="help-block help-block-error"></p> 
+       </div> 
+       <div class="form-group field-loginform-password required"> <label class="control-label" for="loginform-password">Mật khẩu</label> 
+        <input type="password" id="loginform-password" class="form-control input-default" name="LoginForm[password]" aria-required="true"> 
+        <p class="help-block help-block-error"></p> 
+       </div> 
+       <div class="form-group field-loginform-rememberme"> 
+        <div class="checkbox"> <label for="loginform-rememberme"> <input type="hidden" name="LoginForm[rememberMe]" value="0"><input type="checkbox" id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked> Ghi nhớ tài khoản đăng nhập </label> 
+         <p class="help-block help-block-error"></p> 
+        </div> 
+       </div> 
+       <div class="links text-right" style="margin-top: -37px;margin-bottom: 20px;z-index: 2;position: relative;"> <a href="/vi/site/reset-password">Quên mật khẩu</a>
+       </div> 
+       <div class="form-group text-center"> <button type="submit" class="btn btn-primary btn-lg btn-block btn-round mb10" name="login-button">Đăng nhập</button> <a class="btn btn-hollow btn-lg btn-block btn-round" href="/vi/site/signup">Chưa có tài khoản, đăng kí ngay</a>
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div>
+  </div> 
+  <footer class="footer"> 
+   <div class="links"> 
+    <div class="container"> 
+     <ul class="link-items" style="width: 50%;"> 
+      <li class="heading">HSK Online</li> 
+      <li><a href="/vi/1">HSK cấp 1</a></li> 
+      <li><a href="/vi/2">HSK cấp 2</a></li> 
+      <li><a href="/vi/3">HSK cấp 3</a></li> 
+      <li><a href="/vi/4">HSK cấp 4</a></li> 
+      <li><a href="/vi/5">HSK cấp 5</a></li> 
+      <li><a href="/vi/6">HSK cấp 6</a></li> 
+     </ul> 
+     <!--
+        <ul class="link-items" style="width: 33%;">
+            <li class="heading">Mạng xã hội</li>
+            <li><a href="https://twitter.com/HSKOnline2018" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/SuperChinese2018/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/SuperChinese2018" target="_blank">Instagram</a></li>
+        </ul>
+        --> 
+     <ul class="link-items" style="width: 50%;"> 
+      <li class="heading">Về HSK Online</li> 
+      <!--
+            <li><a href="http://www.superchinese.com/about.html" target="_blank">Giới thiệu</a></li>
+            <li><a href="http://www.superchinese.com/blog.html" target="_blank">Tin tức</a></li>
+            --> 
+      <li><a href="/vi/site/contact">Thông tin liên hệ</a></li> 
+      <!--
+            <li><a href="http://www.superchinese.com/about.html" target="_blank">Tuyển dụng</a></li>
+            <li><a href="http://www.superchinese.com/site/privacy" target="_blank">Thỏa thuận người dùng</a></li>
+            --> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="copyright text-center"> 
+    <div class="container">
+      @ 2019 hskonline.com 上海语轩信息科技有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank" style="color:white;">沪ICP备18012196号-5</a> 
+    </div> 
+   </div> 
+  </footer> 
+  <div id="site-user-modal" class="login-modal modal web-modal" role="dialog" tabindex="-1"> 
+   <div class="modal-dialog modal-max-sm"> 
+    <div class="modal-content"> 
+     <div class="modal-body"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin-bottom:-21px;">×</button><iframe id="site-user-modal-iframe" name="site-user-modal-iframe" frameborder="0" marginheight="0" marginwidth="0" allowtransparency style="width: 100%;"></iframe> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  <script src="/assets/5c8df9d6/jquery.js"></script> 
+  <script src="/assets/f90ccadd/yii.js"></script> 
+  <script src="/assets/f90ccadd/yii.validation.js"></script> 
+  <script src="/assets/f90ccadd/yii.activeForm.js"></script> 
+  <script src="/js/script.js"></script> 
+  <script src="/assets/218bf03/js/bootstrap.js"></script> 
+  <script>jQuery(function ($) {
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Tên không được để trống."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Mật khẩu không được để trống."});}},{"id":"loginform-rememberme","name":"rememberMe","container":".field-loginform-rememberme","input":"#loginform-rememberme","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.boolean(value, messages, {"trueValue":"1","falseValue":"0","message":"Ghi nhớ tài khoản đăng nhập phải là \"1\" hoặc \"0\".","skipOnEmpty":1});}}], []);
+jQuery('#site-user-modal').modal({"show":false});
+jQuery('#site-user-modal').on('show.bs.modal', function(event){
+    if(event.relatedTarget){
+        var el = $(event.relatedTarget), url = el.attr('href') || el.data('url'), frm = $('iframe', this), 
+        self = $(this), e = $.Event('beforeLoading.wm', {relatedTarget: el, url: url, loadingUrl : url});
+        self.trigger(e);
+        if(frm.data('_url') !== e.url){
+            var title = el.data('title') || el.attr('title');
+            title && $('.modal-title', this).html(title);
+            frm.attr('src', e.loadingUrl).data('_url', e.url).parent().addClass('loading');
+            self.trigger('afterLoading.wm', e.loadingUrl);
+        }
+    }
+}).find('iframe').on('load', function() {
+    $(this).height($(this.contentDocument).height()).parent().removeClass('loading');
+});
+});</script>  
+ </body>
+</html>
