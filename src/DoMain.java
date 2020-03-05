@@ -242,7 +242,7 @@ public class DoMain {
 
 					try {
 						String output = StringUtil.join(newElements, "\n");
-						outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + j + ".html");
+						outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + (j+1) + ".html");
 						byte[] strToBytes = output.getBytes();
 						outputStream.write(strToBytes);
 
@@ -347,7 +347,7 @@ public class DoMain {
 			for(Element span:spans) {
 				span.attr("id", span.text());
 				span.attr("onClick", "chooseQuestion("+span.text()+")");
-				span.attr("style","cursor: pointer;border-bottom: 1px solid #39a0ff;");
+				span.attr("style","cursor: pointer;border-bottom: 1px solid #39a0ff;color:red");
 				span.attr("selected", "false");
 			}
 			
