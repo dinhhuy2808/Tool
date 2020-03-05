@@ -343,6 +343,13 @@ public class DoMain {
 			Element heading = item.getElementsByClass("field-heading").get(0);
 			Element progress = item.getElementsByClass("exr-progress").get(0);
 			item.getElementsByClass("exr-progress").get(0).remove();
+			Elements spans = heading.getElementsByClass("child-number");
+			for(Element span:spans) {
+				span.attr("id", span.text());
+				span.attr("onClick", "chooseQuestion("+span.text()+")");
+				span.attr("style","cursor: pointer;border-bottom: 1px solid #39a0ff;");
+				span.attr("selected", "false");
+			}
 			
 			Element body = item.getElementsByClass("field-body").get(0);
 			Element footer = item.getElementsByClass("field-footer").get(0);
