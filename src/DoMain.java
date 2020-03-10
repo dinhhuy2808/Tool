@@ -194,6 +194,25 @@ public class DoMain {
 
 	public static void parseMainHtmlToElearningProject() throws IOException {
 		FileOutputStream outputStream;
+		Element buttonAudioDiv = new Element("div").html("<div class=\"btn-slide\"> \r\n" + 
+				"  <div class=\"btn\" style=\"\r\n" + 
+				"    background-color: inherit;\r\n" + 
+				"    padding-top: 0px;\r\n" + 
+				"    \"> <span onclick=\"previous(this)\" type=\"button\"><i class=\"fa fa-backward\" style=\"\r\n" + 
+				"    color: black;\r\n" + 
+				"\"></i></span> \r\n" + 
+				"  </div> \r\n" + 
+				"  <div class=\"btn\" style=\"\r\n" + 
+				"    background-color: inherit;\r\n" + 
+				"    padding-right: 30px;\r\n" + 
+				"    padding-top: 0px;\r\n" + 
+				"    padding-bottom: 10px;\r\n" + 
+				"    padding-left: 30px;\r\n" + 
+				"    \"> <span onclick=\"next(this)\" type=\"button\"><i class=\"fa fa-forward\" style=\"\r\n" + 
+				"    color: black;\r\n" + 
+				"\"></i></span> \r\n" + 
+				"  </div> \r\n" + 
+				" </div>");
 		for (int i = 1; i <= 6; i++) {
 			for (int j = 0; j <= 9; j++) {
 				String text = new String(Files.readAllBytes(Paths.get("testAfterParse-" + i + "-" + j + ".html")),
@@ -211,45 +230,62 @@ public class DoMain {
 					case "exercise-dct":
 						type = 1;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					case "exercise-dxz":
 						type = 2;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					case "exercise-xzt":
 						type = 3;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					case "exercise-pxt":
 						type = 4;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					case "exercise-dyt":
 						type = 5;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					case "exercise-tkt":
 						type = 6;
 						element = generateElement(type, item);
+						for(Element audio : element.getElementsByTag("audio")) {
+							audio.after(buttonAudioDiv.html());
+						}
 						newElements.add(element);
 						break;
 					}
+				}
+				try {
+					String output = StringUtil.join(newElements, "\n");
+					outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + (j+1) + ".html");
+					byte[] strToBytes = output.getBytes();
+					outputStream.write(strToBytes);
 
-					try {
-						String output = StringUtil.join(newElements, "\n");
-						outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + (j+1) + ".html");
-						byte[] strToBytes = output.getBytes();
-						outputStream.write(strToBytes);
-
-						outputStream.close();
-					} catch (IOException e2) {
-						e2.printStackTrace();
-					}
+					outputStream.close();
+				} catch (IOException e2) {
+					e2.printStackTrace();
 				}
 			}
 		}
