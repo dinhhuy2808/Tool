@@ -18,6 +18,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
+import com.google.gson.Gson;
+
 public class DoMain {
 	public static void getHtml() {
 
@@ -60,24 +62,26 @@ public class DoMain {
 						e2.printStackTrace();
 					}
 					j++;
-//					vi/1/4/test-start?lid=17
-//					/vi/1/4/test?id=17		
+					// vi/1/4/test-start?lid=17
+					// /vi/1/4/test?id=17
 				}
 			}
 			doc = Jsoup.connect("http://www.hskonline.com/vi/1/4/test-start?lid=17#").headers(headers).get();
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 		}
-//		Elements masthead = doc.getElementsByClass("audio circle-audio");
-//		Elements masthead = doc.select("div[data-media]");
-//		for(Element e : masthead) {
-//			System.out.println(e.attr("data-media"));
-//		}
+		// Elements masthead = doc.getElementsByClass("audio circle-audio");
+		// Elements masthead = doc.select("div[data-media]");
+		// for(Element e : masthead) {
+		// System.out.println(e.attr("data-media"));
+		// }
 
 	}
 
 	public static void parseHtml() throws IOException {
-//		những thẻ nằm trong field-body sẽ là phần trả lời. field-heading thuộc phần để bài, field-footer chứa answer (field-answer) và tỉ lệ(field-counter)
+		// những thẻ nằm trong field-body sẽ là phần trả lời. field-heading
+		// thuộc phần để bài, field-footer chứa answer (field-answer) và tỉ
+		// lệ(field-counter)
 		String classes[] = { "field-image", "field-audio", "field-items", "field-children" };
 		FileOutputStream outputStream;
 		for (int i = 1; i <= 6; i++) {
@@ -134,7 +138,8 @@ public class DoMain {
 				Elements elements = doc.getElementsByClass("item");
 				for (Element e : elements) {
 
-//					Element header = e.getElementsByClass("field-heading").get(0);
+					// Element header =
+					// e.getElementsByClass("field-heading").get(0);
 					Elements bodies = e.getElementsByClass("field-body");
 					if (bodies.size() == 1) {
 						Element body = bodies.get(0);
@@ -194,25 +199,16 @@ public class DoMain {
 
 	public static void parseMainHtmlToElearningProject() throws IOException {
 		FileOutputStream outputStream;
-		Element buttonAudioDiv = new Element("div").html("<div class=\"btn-slide\"> \r\n" + 
-				"  <div class=\"btn\" style=\"\r\n" + 
-				"    background-color: inherit;\r\n" + 
-				"    padding-top: 0px;\r\n" + 
-				"    \"> <span onclick=\"previous(this)\" type=\"button\"><i class=\"fa fa-backward\" style=\"\r\n" + 
-				"    color: black;\r\n" + 
-				"\"></i></span> \r\n" + 
-				"  </div> \r\n" + 
-				"  <div class=\"btn\" style=\"\r\n" + 
-				"    background-color: inherit;\r\n" + 
-				"    padding-right: 30px;\r\n" + 
-				"    padding-top: 0px;\r\n" + 
-				"    padding-bottom: 10px;\r\n" + 
-				"    padding-left: 30px;\r\n" + 
-				"    \"> <span onclick=\"next(this)\" type=\"button\"><i class=\"fa fa-forward\" style=\"\r\n" + 
-				"    color: black;\r\n" + 
-				"\"></i></span> \r\n" + 
-				"  </div> \r\n" + 
-				" </div>");
+		Element buttonAudioDiv = new Element("div")
+				.html("<div class=\"btn-slide\"> \r\n" + "  <div class=\"btn\" style=\"\r\n"
+						+ "    background-color: inherit;\r\n" + "    padding-top: 0px;\r\n"
+						+ "    \"> <span onclick=\"previous(this)\" type=\"button\"><i class=\"fa fa-backward\" style=\"\r\n"
+						+ "    color: black;\r\n" + "\"></i></span> \r\n" + "  </div> \r\n"
+						+ "  <div class=\"btn\" style=\"\r\n" + "    background-color: inherit;\r\n"
+						+ "    padding-right: 30px;\r\n" + "    padding-top: 0px;\r\n" + "    padding-bottom: 10px;\r\n"
+						+ "    padding-left: 30px;\r\n"
+						+ "    \"> <span onclick=\"next(this)\" type=\"button\"><i class=\"fa fa-forward\" style=\"\r\n"
+						+ "    color: black;\r\n" + "\"></i></span> \r\n" + "  </div> \r\n" + " </div>");
 		for (int i = 1; i <= 6; i++) {
 			for (int j = 0; j <= 9; j++) {
 				String text = new String(Files.readAllBytes(Paths.get("testAfterParse-" + i + "-" + j + ".html")),
@@ -230,7 +226,7 @@ public class DoMain {
 					case "exercise-dct":
 						type = 1;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -238,7 +234,7 @@ public class DoMain {
 					case "exercise-dxz":
 						type = 2;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -246,7 +242,7 @@ public class DoMain {
 					case "exercise-xzt":
 						type = 3;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -254,7 +250,7 @@ public class DoMain {
 					case "exercise-pxt":
 						type = 4;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -262,7 +258,7 @@ public class DoMain {
 					case "exercise-dyt":
 						type = 5;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -270,7 +266,7 @@ public class DoMain {
 					case "exercise-tkt":
 						type = 6;
 						element = generateElement(type, item);
-						for(Element audio : element.getElementsByTag("audio")) {
+						for (Element audio : element.getElementsByTag("audio")) {
 							audio.after(buttonAudioDiv.html());
 						}
 						newElements.add(element);
@@ -279,7 +275,7 @@ public class DoMain {
 				}
 				try {
 					String output = StringUtil.join(newElements, "\n");
-					outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + (j+1) + ".html");
+					outputStream = new FileOutputStream("ElearningProject2/test-" + i + "-" + (j + 1) + ".html");
 					byte[] strToBytes = output.getBytes();
 					outputStream.write(strToBytes);
 
@@ -299,7 +295,7 @@ public class DoMain {
 			Element heading = item.getElementsByClass("field-heading").get(0);
 			Element progress = item.getElementsByClass("exr-progress").get(0);
 			item.getElementsByClass("exr-progress").get(0).remove();
-			
+
 			Element body = item.getElementsByClass("field-body").get(0);
 			Elements options = body.getElementsByClass("field-option");
 			body.html(StringUtil.join(options, "\n"));
@@ -321,7 +317,7 @@ public class DoMain {
 				Element headingChild = exerciseChild.getElementsByClass("field-heading").get(0);
 				Element numberChild = headingChild.getElementsByClass("field-number").get(0);
 				headingChild.getElementsByClass("field-number").get(0).remove();
-				
+
 				Elements options = null;
 				Elements bodyChild = exerciseChild.getElementsByClass("field-body");
 				if (bodyChild.size() > 0) {
@@ -334,9 +330,10 @@ public class DoMain {
 					newBodyChild.html(StringUtil.join(options, "\n"));
 					bodyChild.add(newBodyChild);
 				}
-				
+
 				Element footerChild = exerciseChild.getElementsByClass("field-footer").get(0);
-				exerciseChild.html(StringUtil.join(Arrays.asList(numberChild, headingChild,bodyChild.get(0), footerChild), "\n"));
+				exerciseChild.html(
+						StringUtil.join(Arrays.asList(numberChild, headingChild, bodyChild.get(0), footerChild), "\n"));
 			}
 			body.html(StringUtil.join(exerciseChilds, "\n"));
 			element.html(StringUtil.join(Arrays.asList(number, heading, body), "\n"));
@@ -352,26 +349,25 @@ public class DoMain {
 			Element footer = item.getElementsByClass("field-footer").get(0);
 			element.html(StringUtil.join(Arrays.asList(number, body, footer), "\n"));
 		}
-		
+
 		if (type == 5) {
 			Element heading = item.getElementsByClass("field-heading").get(0);
 			Element number = heading.getElementsByClass("field-number").get(0);
 			heading.getElementsByClass("field-number").get(0).remove();
 			Elements options = heading.getElementsByClass("field-option");
 			heading.html(StringUtil.join(options, "\n"));
-			
+
 			Element body = item.getElementsByClass("field-body").get(0);
 			Elements exerciseChilds = body.getElementsByClass("exercise-child");
 			for (Element exerciseChild : exerciseChilds) {
 				Element headingChild = exerciseChild.getElementsByClass("field-heading").get(0);
 				Element numberChild = headingChild.getElementsByClass("field-number").get(0);
 				headingChild.getElementsByClass("field-number").get(0).remove();
-				
-				
+
 				Element footerChild = exerciseChild.getElementsByClass("field-footer").get(0);
 				exerciseChild.html(StringUtil.join(Arrays.asList(numberChild, headingChild, footerChild), "\n"));
 			}
-			
+
 			body.html(StringUtil.join(exerciseChilds, "\n"));
 			element.html(StringUtil.join(Arrays.asList(number, heading, body), "\n"));
 		}
@@ -380,13 +376,13 @@ public class DoMain {
 			Element progress = item.getElementsByClass("exr-progress").get(0);
 			item.getElementsByClass("exr-progress").get(0).remove();
 			Elements spans = heading.getElementsByClass("child-number");
-			for(Element span:spans) {
+			for (Element span : spans) {
 				span.attr("id", span.text());
-				span.attr("onClick", "chooseQuestion("+span.text()+")");
-				span.attr("style","cursor: pointer;border-bottom: 1px solid #39a0ff;color:red");
+				span.attr("onClick", "chooseQuestion(" + span.text() + ")");
+				span.attr("style", "cursor: pointer;border-bottom: 1px solid #39a0ff;color:red");
 				span.attr("selected", "false");
 			}
-			
+
 			Element body = item.getElementsByClass("field-body").get(0);
 			Element footer = item.getElementsByClass("field-footer").get(0);
 			elemens.add(progress);
@@ -420,10 +416,210 @@ public class DoMain {
 		}
 	}
 
+	public static void getQuestionByCategory() throws IOException {
+		Map<String, Map<Category, List<String>>> map = new HashMap<>();
+		for (int i = 1; i <= 6; i++) {
+			for (int j = 0; j <= 9; j++) {
+				String text = new String(Files.readAllBytes(Paths.get("Tests/test-" + i + "-" + j + ".txt")),
+						StandardCharsets.UTF_8);
+				Document doc = Jsoup.parse(text);
+				Elements elements = doc.getElementsByClass("panel panel-primary panel-hover");
+				Map<Category, List<String>> questionByCategoryMap = new HashMap<>();
+				for (Element item : elements) {
+					List<String> questionNumber = item.getElementsByTag("li").stream().map(element -> element.text())
+							.collect(Collectors.toList());
+					questionByCategoryMap.put(item.child(0).text().trim().equals("Nghe") ? Category.NGHE
+							: item.child(0).text().trim().equals("Đọc hiểu") ? Category.DOC_HIEU
+									: item.child(0).text().trim().equals("Viết văn") ? Category.VIET_VAN
+											: Category.OTHERS,
+							questionNumber);
+				}
+				map.put("" + i + "-" + (j + 1), questionByCategoryMap);
+
+			}
+		}
+//		for (String key : map.keySet()) {
+//			System.out.println(key + ": " + map.get(key));
+//
+//		}
+		reGenerateQuestionForTest(map);
+	}
+
+	public static void reGenerateQuestionForTest(Map<String, Map<Category, List<String>>> questionByCategoryMap)
+			throws IOException {
+		for (int i = 1; i <= 6; i++) {
+			for (int j = 0; j <= 9; j++) {
+				String text = new String(
+						Files.readAllBytes(
+								Paths.get("C:\\TaxProject\\upload\\question\\test-" + i + "-" + j + ".html")),
+						StandardCharsets.UTF_8);
+				Document doc = Jsoup.parse(text);
+				Elements items = doc.getElementsByClass("item");
+				List<QuestionDescription> questionDescriptions = new ArrayList<>();
+				for (Element item : items) {
+					String type = item.attr("type");
+					questionDescriptions.add(generateQuestionDesc(type, item, questionByCategoryMap.get("" + i + "-" + (j + 1))));
+				}
+				try {
+					FileOutputStream outputStream;
+					Gson gson = new Gson();
+					String output = gson.toJson(questionDescriptions);
+					outputStream = new FileOutputStream("C:\\TaxProject\\upload\\question\\json\\test-" + i + "-" + (j + 1) + ".json");
+					byte[] strToBytes = output.getBytes();
+					outputStream.write(strToBytes);
+
+					outputStream.close();
+				} catch (IOException e2) {
+					e2.printStackTrace();
+				}
+			}
+		}
+	}
+
+	private static QuestionDescription generateQuestionDesc(String type, Element item,
+			Map<Category, List<String>> questionsByCatefory) {
+		QuestionDescription questionDescription = new QuestionDescription();
+		List<QuestionBody> bodies = new ArrayList<QuestionBody>();
+		if (type.equalsIgnoreCase("1") || type.equalsIgnoreCase("3") || type.equalsIgnoreCase("4")) {
+			String number = item.getElementsByClass("exr-progress").get(0).text();
+			String header = type.equalsIgnoreCase("4") ? "" : item.getElementsByClass("field-heading").get(0).html();
+
+			Element bodyElement = item.getElementsByClass("field-body").get(0);
+			Elements optionsElement = bodyElement.getElementsByClass("field-option");
+			Map<String, String> value = new HashMap<String, String>();
+			optionsElement.stream().forEach(element -> {
+				Elements children = element.children();
+				if (children.size() > 1) {
+					value.put(children.get(0).text(), children.get(1).text());
+				} else if (children.size() == 1) {
+					value.put(children.get(0).text(), "");
+				} else {
+					value.put(element.text(), "");
+				}
+			});
+			QuestionBody questionBody = new QuestionBody();
+			questionBody.setValue(value);
+			questionBody.setNumber(number.split("/")[0]);
+			bodies.add(questionBody);
+			questionDescription.setType(type);
+			questionDescription.setNumber(number.split("/")[0]);
+			questionDescription.setHeader(header);
+			questionDescription.setBody(bodies);
+		} else if (type.equalsIgnoreCase("2")) {
+			String number = item.getElementsByClass("field-number").get(0).text();
+			String header = item.getElementsByClass("field-heading").get(0).html();
+
+			Element bodyElement = item.getElementsByClass("field-body").get(0);
+			Elements exerciseChilds = bodyElement.getElementsByClass("exercise-child");
+			for (Element exerciseChild : exerciseChilds) {
+				QuestionBody questionBody = new QuestionBody();
+
+				String headingChild = exerciseChild.getElementsByClass("field-heading").get(0).html();
+				String numberChild = exerciseChild.getElementsByClass("field-number").get(0).text();
+
+				Element bodyChildElement = exerciseChild.getElementsByClass("field-body").get(0);
+				Elements optionsElement = bodyChildElement.getElementsByClass("field-option");
+				Map<String, String> value = new HashMap<String, String>();
+				optionsElement.stream().forEach(element -> {
+					Elements children = element.children();
+					if (children.size() > 1) {
+						value.put(children.get(0).text(), children.get(1).text());
+					} else if (children.size() == 1) {
+						value.put(children.get(0).text(), "");
+					} else {
+						value.put(element.text(), "");
+					}
+				});
+				questionBody.setValue(value);
+				questionBody.setNumber(numberChild.split("/")[0]);
+				questionBody.setHeader(headingChild);
+				bodies.add(questionBody);
+			}
+			questionDescription.setType(type);
+			questionDescription.setNumber(number.split("/")[0]);
+			questionDescription.setHeader(header);
+			questionDescription.setBody(bodies);
+		} else if (type.equalsIgnoreCase("5")) {
+			String number = item.getElementsByClass("field-number").get(0).text();
+			String header = item.getElementsByClass("field-heading").get(0).html();
+			Elements headingOptionsElement = item.getElementsByClass("field-heading").get(0)
+					.getElementsByClass("field-option");
+			Map<String, String> headingOptions = new HashMap<String, String>();
+			headingOptionsElement.stream().forEach(element -> {
+				Elements children = element.children();
+				if (children.size() > 1) {
+					headingOptions.put(children.get(0).text(), children.get(1).text());
+				} else if (children.size() == 1) {
+					headingOptions.put(children.get(0).text(), "");
+				} else {
+					headingOptions.put(element.text(), "");
+				}
+			});
+
+			Element bodyElement = item.getElementsByClass("field-body").get(0);
+			Elements exerciseChilds = bodyElement.getElementsByClass("exercise-child");
+			for (Element exerciseChild : exerciseChilds) {
+				QuestionBody questionBody = new QuestionBody();
+				Map<String, String> value = new HashMap<String, String>();
+				String headingChild = exerciseChild.getElementsByClass("field-heading").get(0).html();
+				String numberChild = exerciseChild.getElementsByClass("field-number").get(0).text();
+				questionBody.setValue(value);
+				questionBody.setNumber(numberChild.split("/")[0]);
+				questionBody.setHeader(headingChild);
+				bodies.add(questionBody);
+			}
+
+			questionDescription.setType(type);
+			questionDescription.setNumber(number.split("/")[0]);
+			questionDescription.setHeader(header);
+			questionDescription.setHeadingOptions(headingOptions);
+			questionDescription.setBody(bodies);
+		} else if (type.equalsIgnoreCase("6")) {
+			String number = item.getElementsByClass("exr-progress").get(0).text();
+			String header = item.getElementsByClass("field-heading").get(0).html();
+
+			Element bodyElement = item.getElementsByClass("field-body").get(0);
+			Elements options = bodyElement.getElementsByClass("field-option");
+			Map<String, String> value = new HashMap<String, String>();
+			options.stream().forEach(element -> {
+				Elements children = element.children();
+				if (children.size() > 1) {
+					value.put(children.get(0).text(), children.get(1).text());
+				} else if (children.size() == 1) {
+					value.put(children.get(0).text(), "");
+				} else {
+					value.put(element.text(), "");
+				}
+			});
+			QuestionBody questionBody = new QuestionBody();
+			questionBody.setValue(value);
+			questionBody.setNumber(number.split("/")[0]);
+			bodies.add(questionBody);
+
+			questionDescription.setType(type);
+			questionDescription.setNumber(number.split("/")[0]);
+			questionDescription.setHeader(header);
+			questionDescription.setBody(bodies);
+		}
+		for (Category cat : questionsByCatefory.keySet()) {
+			if (questionDescription.getNumber().contains("-")) {
+				if (questionsByCatefory.get(cat).contains(questionDescription.getNumber().split("-")[0])) {
+					questionDescription.setCategory(cat);
+				}
+			} else {
+				if (questionsByCatefory.get(cat).contains(questionDescription.getNumber())) {
+					questionDescription.setCategory(cat);
+				}
+			}
+
+		}
+		return questionDescription;
+	}
+
 	public static void main(String[] args) {
 		try {
-			parseMainHtmlToElearningProject();
-//			countType();
+			getQuestionByCategory();
+			// countType();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
