@@ -448,7 +448,7 @@ public class DoMain {
 	public static void reGenerateQuestionForTest(Map<String, Map<Category, List<String>>> questionByCategoryMap)
 			throws IOException {
 		for (int i = 1; i <= 6; i++) {
-			for (int j = 0; j <= 9; j++) {
+			for (int j = 1; j <= 10; j++) {
 				String text = new String(
 						Files.readAllBytes(
 								Paths.get("C:\\TaxProject\\upload\\question\\test-" + i + "-" + j + ".html")),
@@ -458,13 +458,13 @@ public class DoMain {
 				List<QuestionDescription> questionDescriptions = new ArrayList<>();
 				for (Element item : items) {
 					String type = item.attr("type");
-					questionDescriptions.add(generateQuestionDesc(type, item, questionByCategoryMap.get("" + i + "-" + (j + 1))));
+					questionDescriptions.add(generateQuestionDesc(type, item, questionByCategoryMap.get("" + i + "-" + (j))));
 				}
 				try {
 					FileOutputStream outputStream;
 					Gson gson = new Gson();
 					String output = gson.toJson(questionDescriptions);
-					outputStream = new FileOutputStream("C:\\TaxProject\\upload\\question\\json\\test-" + i + "-" + (j + 1) + ".json");
+					outputStream = new FileOutputStream("C:\\TaxProject\\upload\\question\\json\\test-" + i + "-" + (j) + ".json");
 					byte[] strToBytes = output.getBytes();
 					outputStream.write(strToBytes);
 
@@ -488,13 +488,16 @@ public class DoMain {
 			Elements optionsElement = bodyElement.getElementsByClass("field-option");
 			Map<String, String> value = new HashMap<String, String>();
 			optionsElement.stream().forEach(element -> {
+				Elements fieldNoClass = element.getElementsByClass("field-no");
+				String key = fieldNoClass.get(0).text();
 				Elements children = element.children();
+				fieldNoClass.remove();
 				if (children.size() > 1) {
-					value.put(children.get(0).text(), children.get(1).text());
+					value.put(key, element.html());
 				} else if (children.size() == 1) {
-					value.put(children.get(0).text(), "");
+					value.put(key,element.html());
 				} else {
-					value.put(element.text(), "");
+					value.put(element.text(), element.html());
 				}
 			});
 			QuestionBody questionBody = new QuestionBody();
