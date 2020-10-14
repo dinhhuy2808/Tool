@@ -492,6 +492,12 @@ public class DoMain {
 				String key = fieldNoClass.get(0).text();
 				Elements children = element.children();
 				fieldNoClass.remove();
+				element.getElementsByClass("glyphicon glyphicon-ok").stream().forEach(element1 -> {
+					element1.attr("class", "fa fa-check");
+				});
+				element.getElementsByClass("glyphicon glyphicon-remove").stream().forEach(element1 -> {
+					element1.attr("class", "fa fa-times");
+				});
 				if (children.size() > 1) {
 					value.put(key, element.html());
 				} else if (children.size() == 1) {
@@ -551,7 +557,7 @@ public class DoMain {
 			headingOptionsElement.stream().forEach(element -> {
 				Elements children = element.children();
 				if (children.size() > 1) {
-					headingOptions.put(children.get(0).text(), children.get(1).text());
+					headingOptions.put(children.get(0).text(), children.get(1).html());
 				} else if (children.size() == 1) {
 					headingOptions.put(children.get(0).text(), "");
 				} else {
